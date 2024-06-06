@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF
+	xmlns="http://purl.org/rss/1.0/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:admin="http://webns.net/mvcb/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	>
+<channel rdf:about="/">
+	<title>SendMail</title>
+	<link>/</link>
+	<description></description>
+	<dc:date>2024-06-06T20:50:20Z	</dc:date>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
+	<admin:generatorAgent rdf:resource="https://wordpress.org/?v=6.5.4" />
+	<items>
+		<rdf:Seq>
+				</rdf:Seq>
+	</items>
+</channel>
+</rdf:RDF>
