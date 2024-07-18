@@ -1,268 +1,272 @@
-/* File: automatic-bricks.css - Version: 3.0.0-beta-2.2 - Generated: 2024-06-11 15:29:55 */
-body.bricks-is-frontend :focus-visible {
+/* File: automatic-bricks.css - Version: 3.0.4 - Generated: 2024-07-17 23:53:43 */
+body.bricks-is-frontend.bricks-is-frontend :focus {
+  outline: none;
+  box-shadow: none;
+}
+body.bricks-is-frontend.bricks-is-frontend :focus-visible {
   outline-style: solid;
   outline-color: var(--focus-color);
   outline-width: var(--focus-width);
   outline-offset: var(--focus-offset);
 }
 @supports not selector(:focus-visible) {
-  body.bricks-is-frontend :focus {
+  body.bricks-is-frontend.bricks-is-frontend :focus {
     outline-style: solid;
     outline-color: var(--focus-color);
     outline-width: var(--focus-width);
     outline-offset: var(--focus-offset);
   }
 }
-body.bricks-is-frontend *:focus.focus--primary {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--primary {
   --focus-color: var(--primary);
 }
-body.bricks-is-frontend .focus--primary *:focus, body.bricks-is-frontend .focus--primary:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--primary *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--primary:focus-within {
   --focus-color: var(--primary);
 }
-body.bricks-is-frontend *:focus.focus--primary-hover {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--primary-hover {
   --focus-color: var(--primary-hover);
 }
-body.bricks-is-frontend .focus--primary-hover *:focus, body.bricks-is-frontend .focus--primary-hover:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--primary-hover *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--primary-hover:focus-within {
   --focus-color: var(--primary-hover);
 }
-body.bricks-is-frontend *:focus.focus--primary-ultra-light {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--primary-ultra-light {
   --focus-color: var(--primary-ultra-light);
 }
-body.bricks-is-frontend .focus--primary-ultra-light *:focus, body.bricks-is-frontend .focus--primary-ultra-light:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--primary-ultra-light *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--primary-ultra-light:focus-within {
   --focus-color: var(--primary-ultra-light);
 }
-body.bricks-is-frontend *:focus.focus--primary-light {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--primary-light {
   --focus-color: var(--primary-light);
 }
-body.bricks-is-frontend .focus--primary-light *:focus, body.bricks-is-frontend .focus--primary-light:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--primary-light *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--primary-light:focus-within {
   --focus-color: var(--primary-light);
 }
-body.bricks-is-frontend *:focus.focus--primary-semi-light {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--primary-semi-light {
   --focus-color: var(--primary-semi-light);
 }
-body.bricks-is-frontend .focus--primary-semi-light *:focus, body.bricks-is-frontend .focus--primary-semi-light:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--primary-semi-light *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--primary-semi-light:focus-within {
   --focus-color: var(--primary-semi-light);
 }
-body.bricks-is-frontend *:focus.focus--primary-semi-dark {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--primary-semi-dark {
   --focus-color: var(--primary-semi-dark);
 }
-body.bricks-is-frontend .focus--primary-semi-dark *:focus, body.bricks-is-frontend .focus--primary-semi-dark:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--primary-semi-dark *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--primary-semi-dark:focus-within {
   --focus-color: var(--primary-semi-dark);
 }
-body.bricks-is-frontend *:focus.focus--primary-dark {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--primary-dark {
   --focus-color: var(--primary-dark);
 }
-body.bricks-is-frontend .focus--primary-dark *:focus, body.bricks-is-frontend .focus--primary-dark:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--primary-dark *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--primary-dark:focus-within {
   --focus-color: var(--primary-dark);
 }
-body.bricks-is-frontend *:focus.focus--primary-ultra-dark {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--primary-ultra-dark {
   --focus-color: var(--primary-ultra-dark);
 }
-body.bricks-is-frontend .focus--primary-ultra-dark *:focus, body.bricks-is-frontend .focus--primary-ultra-dark:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--primary-ultra-dark *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--primary-ultra-dark:focus-within {
   --focus-color: var(--primary-ultra-dark);
 }
-body.bricks-is-frontend *:focus.focus--primary-comp {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--primary-comp {
   --focus-color: var(--primary-comp);
 }
-body.bricks-is-frontend .focus--primary-comp *:focus, body.bricks-is-frontend .focus--primary-comp:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--primary-comp *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--primary-comp:focus-within {
   --focus-color: var(--primary-comp);
 }
-body.bricks-is-frontend *:focus.focus--primary-medium {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--primary-medium {
   --focus-color: var(--primary-medium);
 }
-body.bricks-is-frontend .focus--primary-medium *:focus, body.bricks-is-frontend .focus--primary-medium:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--primary-medium *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--primary-medium:focus-within {
   --focus-color: var(--primary-medium);
 }
-body.bricks-is-frontend *:focus.focus--secondary {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--secondary {
   --focus-color: var(--secondary);
 }
-body.bricks-is-frontend .focus--secondary *:focus, body.bricks-is-frontend .focus--secondary:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--secondary *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--secondary:focus-within {
   --focus-color: var(--secondary);
 }
-body.bricks-is-frontend *:focus.focus--secondary-hover {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--secondary-hover {
   --focus-color: var(--secondary-hover);
 }
-body.bricks-is-frontend .focus--secondary-hover *:focus, body.bricks-is-frontend .focus--secondary-hover:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--secondary-hover *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--secondary-hover:focus-within {
   --focus-color: var(--secondary-hover);
 }
-body.bricks-is-frontend *:focus.focus--secondary-ultra-light {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--secondary-ultra-light {
   --focus-color: var(--secondary-ultra-light);
 }
-body.bricks-is-frontend .focus--secondary-ultra-light *:focus, body.bricks-is-frontend .focus--secondary-ultra-light:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--secondary-ultra-light *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--secondary-ultra-light:focus-within {
   --focus-color: var(--secondary-ultra-light);
 }
-body.bricks-is-frontend *:focus.focus--secondary-light {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--secondary-light {
   --focus-color: var(--secondary-light);
 }
-body.bricks-is-frontend .focus--secondary-light *:focus, body.bricks-is-frontend .focus--secondary-light:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--secondary-light *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--secondary-light:focus-within {
   --focus-color: var(--secondary-light);
 }
-body.bricks-is-frontend *:focus.focus--secondary-semi-light {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--secondary-semi-light {
   --focus-color: var(--secondary-semi-light);
 }
-body.bricks-is-frontend .focus--secondary-semi-light *:focus, body.bricks-is-frontend .focus--secondary-semi-light:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--secondary-semi-light *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--secondary-semi-light:focus-within {
   --focus-color: var(--secondary-semi-light);
 }
-body.bricks-is-frontend *:focus.focus--secondary-semi-dark {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--secondary-semi-dark {
   --focus-color: var(--secondary-semi-dark);
 }
-body.bricks-is-frontend .focus--secondary-semi-dark *:focus, body.bricks-is-frontend .focus--secondary-semi-dark:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--secondary-semi-dark *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--secondary-semi-dark:focus-within {
   --focus-color: var(--secondary-semi-dark);
 }
-body.bricks-is-frontend *:focus.focus--secondary-dark {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--secondary-dark {
   --focus-color: var(--secondary-dark);
 }
-body.bricks-is-frontend .focus--secondary-dark *:focus, body.bricks-is-frontend .focus--secondary-dark:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--secondary-dark *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--secondary-dark:focus-within {
   --focus-color: var(--secondary-dark);
 }
-body.bricks-is-frontend *:focus.focus--secondary-ultra-dark {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--secondary-ultra-dark {
   --focus-color: var(--secondary-ultra-dark);
 }
-body.bricks-is-frontend .focus--secondary-ultra-dark *:focus, body.bricks-is-frontend .focus--secondary-ultra-dark:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--secondary-ultra-dark *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--secondary-ultra-dark:focus-within {
   --focus-color: var(--secondary-ultra-dark);
 }
-body.bricks-is-frontend *:focus.focus--secondary-comp {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--secondary-comp {
   --focus-color: var(--secondary-comp);
 }
-body.bricks-is-frontend .focus--secondary-comp *:focus, body.bricks-is-frontend .focus--secondary-comp:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--secondary-comp *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--secondary-comp:focus-within {
   --focus-color: var(--secondary-comp);
 }
-body.bricks-is-frontend *:focus.focus--secondary-medium {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--secondary-medium {
   --focus-color: var(--secondary-medium);
 }
-body.bricks-is-frontend .focus--secondary-medium *:focus, body.bricks-is-frontend .focus--secondary-medium:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--secondary-medium *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--secondary-medium:focus-within {
   --focus-color: var(--secondary-medium);
 }
-body.bricks-is-frontend *:focus.focus--base {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--base {
   --focus-color: var(--base);
 }
-body.bricks-is-frontend .focus--base *:focus, body.bricks-is-frontend .focus--base:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--base *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--base:focus-within {
   --focus-color: var(--base);
 }
-body.bricks-is-frontend *:focus.focus--base-hover {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--base-hover {
   --focus-color: var(--base-hover);
 }
-body.bricks-is-frontend .focus--base-hover *:focus, body.bricks-is-frontend .focus--base-hover:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--base-hover *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--base-hover:focus-within {
   --focus-color: var(--base-hover);
 }
-body.bricks-is-frontend *:focus.focus--base-ultra-light {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--base-ultra-light {
   --focus-color: var(--base-ultra-light);
 }
-body.bricks-is-frontend .focus--base-ultra-light *:focus, body.bricks-is-frontend .focus--base-ultra-light:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--base-ultra-light *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--base-ultra-light:focus-within {
   --focus-color: var(--base-ultra-light);
 }
-body.bricks-is-frontend *:focus.focus--base-light {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--base-light {
   --focus-color: var(--base-light);
 }
-body.bricks-is-frontend .focus--base-light *:focus, body.bricks-is-frontend .focus--base-light:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--base-light *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--base-light:focus-within {
   --focus-color: var(--base-light);
 }
-body.bricks-is-frontend *:focus.focus--base-semi-light {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--base-semi-light {
   --focus-color: var(--base-semi-light);
 }
-body.bricks-is-frontend .focus--base-semi-light *:focus, body.bricks-is-frontend .focus--base-semi-light:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--base-semi-light *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--base-semi-light:focus-within {
   --focus-color: var(--base-semi-light);
 }
-body.bricks-is-frontend *:focus.focus--base-semi-dark {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--base-semi-dark {
   --focus-color: var(--base-semi-dark);
 }
-body.bricks-is-frontend .focus--base-semi-dark *:focus, body.bricks-is-frontend .focus--base-semi-dark:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--base-semi-dark *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--base-semi-dark:focus-within {
   --focus-color: var(--base-semi-dark);
 }
-body.bricks-is-frontend *:focus.focus--base-dark {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--base-dark {
   --focus-color: var(--base-dark);
 }
-body.bricks-is-frontend .focus--base-dark *:focus, body.bricks-is-frontend .focus--base-dark:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--base-dark *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--base-dark:focus-within {
   --focus-color: var(--base-dark);
 }
-body.bricks-is-frontend *:focus.focus--base-ultra-dark {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--base-ultra-dark {
   --focus-color: var(--base-ultra-dark);
 }
-body.bricks-is-frontend .focus--base-ultra-dark *:focus, body.bricks-is-frontend .focus--base-ultra-dark:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--base-ultra-dark *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--base-ultra-dark:focus-within {
   --focus-color: var(--base-ultra-dark);
 }
-body.bricks-is-frontend *:focus.focus--base-comp {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--base-comp {
   --focus-color: var(--base-comp);
 }
-body.bricks-is-frontend .focus--base-comp *:focus, body.bricks-is-frontend .focus--base-comp:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--base-comp *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--base-comp:focus-within {
   --focus-color: var(--base-comp);
 }
-body.bricks-is-frontend *:focus.focus--base-medium {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--base-medium {
   --focus-color: var(--base-medium);
 }
-body.bricks-is-frontend .focus--base-medium *:focus, body.bricks-is-frontend .focus--base-medium:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--base-medium *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--base-medium:focus-within {
   --focus-color: var(--base-medium);
 }
-body.bricks-is-frontend *:focus.focus--neutral {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--neutral {
   --focus-color: var(--neutral);
 }
-body.bricks-is-frontend .focus--neutral *:focus, body.bricks-is-frontend .focus--neutral:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--neutral *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--neutral:focus-within {
   --focus-color: var(--neutral);
 }
-body.bricks-is-frontend *:focus.focus--neutral-hover {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--neutral-hover {
   --focus-color: var(--neutral-hover);
 }
-body.bricks-is-frontend .focus--neutral-hover *:focus, body.bricks-is-frontend .focus--neutral-hover:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--neutral-hover *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--neutral-hover:focus-within {
   --focus-color: var(--neutral-hover);
 }
-body.bricks-is-frontend *:focus.focus--neutral-ultra-light {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--neutral-ultra-light {
   --focus-color: var(--neutral-ultra-light);
 }
-body.bricks-is-frontend .focus--neutral-ultra-light *:focus, body.bricks-is-frontend .focus--neutral-ultra-light:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--neutral-ultra-light *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--neutral-ultra-light:focus-within {
   --focus-color: var(--neutral-ultra-light);
 }
-body.bricks-is-frontend *:focus.focus--neutral-light {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--neutral-light {
   --focus-color: var(--neutral-light);
 }
-body.bricks-is-frontend .focus--neutral-light *:focus, body.bricks-is-frontend .focus--neutral-light:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--neutral-light *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--neutral-light:focus-within {
   --focus-color: var(--neutral-light);
 }
-body.bricks-is-frontend *:focus.focus--neutral-semi-light {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--neutral-semi-light {
   --focus-color: var(--neutral-semi-light);
 }
-body.bricks-is-frontend .focus--neutral-semi-light *:focus, body.bricks-is-frontend .focus--neutral-semi-light:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--neutral-semi-light *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--neutral-semi-light:focus-within {
   --focus-color: var(--neutral-semi-light);
 }
-body.bricks-is-frontend *:focus.focus--neutral-semi-dark {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--neutral-semi-dark {
   --focus-color: var(--neutral-semi-dark);
 }
-body.bricks-is-frontend .focus--neutral-semi-dark *:focus, body.bricks-is-frontend .focus--neutral-semi-dark:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--neutral-semi-dark *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--neutral-semi-dark:focus-within {
   --focus-color: var(--neutral-semi-dark);
 }
-body.bricks-is-frontend *:focus.focus--neutral-dark {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--neutral-dark {
   --focus-color: var(--neutral-dark);
 }
-body.bricks-is-frontend .focus--neutral-dark *:focus, body.bricks-is-frontend .focus--neutral-dark:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--neutral-dark *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--neutral-dark:focus-within {
   --focus-color: var(--neutral-dark);
 }
-body.bricks-is-frontend *:focus.focus--neutral-ultra-dark {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--neutral-ultra-dark {
   --focus-color: var(--neutral-ultra-dark);
 }
-body.bricks-is-frontend .focus--neutral-ultra-dark *:focus, body.bricks-is-frontend .focus--neutral-ultra-dark:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--neutral-ultra-dark *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--neutral-ultra-dark:focus-within {
   --focus-color: var(--neutral-ultra-dark);
 }
-body.bricks-is-frontend *:focus.focus--neutral-comp {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--neutral-comp {
   --focus-color: var(--neutral-comp);
 }
-body.bricks-is-frontend .focus--neutral-comp *:focus, body.bricks-is-frontend .focus--neutral-comp:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--neutral-comp *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--neutral-comp:focus-within {
   --focus-color: var(--neutral-comp);
 }
-body.bricks-is-frontend *:focus.focus--neutral-medium {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--neutral-medium {
   --focus-color: var(--neutral-medium);
 }
-body.bricks-is-frontend .focus--neutral-medium *:focus, body.bricks-is-frontend .focus--neutral-medium:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--neutral-medium *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--neutral-medium:focus-within {
   --focus-color: var(--neutral-medium);
 }
-body.bricks-is-frontend *:focus.focus--white {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--white {
   --focus-color: var(--white);
 }
-body.bricks-is-frontend .focus--white *:focus, body.bricks-is-frontend .focus--white:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--white *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--white:focus-within {
   --focus-color: var(--white);
 }
-body.bricks-is-frontend *:focus.focus--black {
+body.bricks-is-frontend.bricks-is-frontend *:focus.focus--black {
   --focus-color: var(--black);
 }
-body.bricks-is-frontend .focus--black *:focus, body.bricks-is-frontend .focus--black:focus-within {
+body.bricks-is-frontend.bricks-is-frontend .focus--black *:focus, body.bricks-is-frontend.bricks-is-frontend .focus--black:focus-within {
   --focus-color: var(--black);
 }
 .skip-link, .link--skip {
@@ -270,6 +274,7 @@ body.bricks-is-frontend .focus--black *:focus, body.bricks-is-frontend .focus--b
   inset-block-start: 1rem;
   inset-inline-start: 1rem;
   transform: translateY(-250%);
+  --btn-min-width: fit-content;
   background: var(--btn-background);
   color: var(--btn-text-color);
   padding-block: var(--btn-padding-block);
@@ -287,15 +292,23 @@ body.bricks-is-frontend .focus--black *:focus, body.bricks-is-frontend .focus--b
   border-radius: var(--btn-radius);
   border-color: var(--btn-border-color);
   transition: var(--btn-transition, var(--transition));
-  background: var(--action);
-  color: var(--action-ultra-light);
-  display: inline-flex;
+  justify-content: var(--btn-justify-content, center);
+  text-align: var(--btn-text-align, center);
+  --btn-background: var(--primary);
+  --btn-background-hover: var(--primary-hover);
+  --btn-text-color: var(--primary-ultra-light);
+  --btn-text-color-hover: var(--primary-ultra-light);
+  --btn-border-color: var(--primary);
+  --btn-border-color-hover: var(--primary-hover);
+  --focus-color: var(--primary-dark);
 }
-.skip-link:hover, .link--skip:hover {
-  background: var(--btn-background-hover);
-  color: var(--btn-text-color-hover);
-  border-color: var(--btn-border-color-hover);
-  text-decoration: var(--btn-text-decoration-hover);
+@media (hover: hover) and (pointer: fine) {
+  .skip-link:hover, .link--skip:hover {
+    background: var(--btn-background-hover);
+    color: var(--btn-text-color-hover);
+    border-color: var(--btn-border-color-hover);
+    text-decoration: var(--btn-text-decoration-hover);
+  }
 }
 .skip-link:focus, .link--skip:focus {
   outline-style: solid;
@@ -305,10 +318,6 @@ body.bricks-is-frontend .focus--black *:focus, body.bricks-is-frontend .focus--b
 }
 .skip-link:focus, .link--skip:focus {
   transform: translateY(0);
-}
-.skip-link:hover, .link--skip:hover {
-  background-color: var(--action-hover);
-  color: var(--action-ultra-light);
 }
 .bricks-area .hidden-accessible {
   position: relative !important;
@@ -371,22 +380,14 @@ body {
 html:has(body.boxed-layout) {
   background-color: var(--device-bg-color, var(--white));
 }
-body.boxed-layout {
-  inline-size: 100%;
-  max-inline-size: var(--body-max-width, 1920px);
-  box-shadow: var(--body-box-shadow, 0 0 80px 0 var(--neutral-ultra-dark-trans-20));
-  border-color: var(--body-border-color, transparent);
-  border-style: var(--body-border-style, none);
-  border-width: var(--body-border-width, 0);
-  border-radius: var(--body-border-radius, 0);
-  margin-block-start: var(--body-margin-top, 0) !important;
-  margin-inline: auto !important;
-}
 body {
   font-size: var(--default-font-size, var(--text-m));
   color: var(--text-color);
   line-height: var(--text-line-height);
   text-wrap: var(--text-text-wrap);
+}
+p, li {
+  line-height: var(--text-line-height, calc(1.5));
 }
 :is(h1, h2, h3, h4, h5, h6) {
   color: var(--heading-color);
@@ -425,8 +426,10 @@ body a:where(:not([class*= btn--])) {
   text-underline-offset: var(--link-underline-offset, 0);
   transition: var(--link-transition, var(--transition));
 }
-body a:where(:not([class*= btn--])):hover {
-  color: var(--link-color-hover, var(--action-hover));
+@media (hover: hover) and (pointer: fine) {
+  body a:where(:not([class*= btn--])):hover {
+    color: var(--link-color-hover, var(--action-hover));
+  }
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit;
@@ -434,8 +437,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: currentcolor;
   text-underline-offset: var(--link-underline-offset, 0);
 }
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-  color: currentcolor;
+@media (hover: hover) and (pointer: fine) {
+  h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: currentcolor;
+  }
 }
 body:where(.bricks-is-frontend), body:where(:not(.bricks-is-frontend)) {
   color: var(--body-color, var(--neutral-semi-dark));
@@ -915,7 +920,7 @@ body:where(.bricks-is-frontend), body:where(:not(.bricks-is-frontend)) {
   --btn-border-color-hover: var(--white);
   --focus-color: var(--action);
 }
-[class*="btn--"] {
+[class*="btn--"]:where(:not(.btn--none)) {
   background: var(--btn-background);
   color: var(--btn-text-color);
   padding-block: var(--btn-padding-block);
@@ -933,14 +938,18 @@ body:where(.bricks-is-frontend), body:where(:not(.bricks-is-frontend)) {
   border-radius: var(--btn-radius);
   border-color: var(--btn-border-color);
   transition: var(--btn-transition, var(--transition));
+  justify-content: var(--btn-justify-content, center);
+  text-align: var(--btn-text-align, center);
 }
-[class*="btn--"]:hover {
-  background: var(--btn-background-hover);
-  color: var(--btn-text-color-hover);
-  border-color: var(--btn-border-color-hover);
-  text-decoration: var(--btn-text-decoration-hover);
+@media (hover: hover) and (pointer: fine) {
+  [class*="btn--"]:where(:not(.btn--none)):hover {
+    background: var(--btn-background-hover);
+    color: var(--btn-text-color-hover);
+    border-color: var(--btn-border-color-hover);
+    text-decoration: var(--btn-text-decoration-hover);
+  }
 }
-[class*="btn--"]:focus {
+[class*="btn--"]:where(:not(.btn--none)):focus {
   outline-style: solid;
   outline-color: var(--focus-color);
   outline-width: var(--focus-width);
@@ -964,7 +973,7 @@ body:where(.bricks-is-frontend), body:where(:not(.bricks-is-frontend)) {
 .btn--xxl {
   font-size: var(--text-xxl);
 }
-.btn--clear.btn--clear {
+.btn--clear.btn--clear, .btn--none.btn--none {
   background: none;
   border: none;
 }

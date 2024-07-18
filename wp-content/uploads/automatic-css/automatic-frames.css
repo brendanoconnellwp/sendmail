@@ -1,4 +1,4 @@
-/* File: automatic-frames.css - Version: 3.0.0-beta-2.2 - Generated: 2024-06-11 15:29:58 */
+/* File: automatic-frames.css - Version: 3.0.4 - Generated: 2024-07-17 23:53:45 */
 :root {
   --fr-bg-light: var(--bg-light);
   --fr-bg-dark: var(--bg-dark);
@@ -33,25 +33,4 @@
 }
 .fr-bg--dark {
   background-color: var(--bg-dark);
-}
-#bricks-popup.templates .bricks-layout-item-inner {
-  height: 100% !important;
-  aspect-ratio: 1.3333333333;
-}
-#bricks-popup.templates img {
-  height: 100% !important;
-}
-#bricks-popup.templates .bricks-layout-item-inner .button.type {
-  display: none !important;
-}
-#bricks-popup.templates .bricks-layout-item-inner .overlay-wrapper .user {
-  display: none !important;
-}
-#bricks-popup.templates #bricks-popup-inner {
-  max-width: 100% !important;
-}
-@media (min-width: 1440px) {
-  #bricks-popup.templates .bricks-layout-item {
-    width: 25%;
-  }
 }

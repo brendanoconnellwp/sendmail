@@ -1,45 +1,45 @@
-/* File: automatic.css - Version: 3.0.0-beta-2.2 - Generated: 2024-06-11 15:29:54 */
+/* File: automatic.css - Version: 3.0.4 - Generated: 2024-07-17 23:53:42 */
 :root, .color-scheme--main {
-  --primary-hex: #fc3008;
-  --primary-hsl: 10 98% 51%;
-  --primary-rgb: 252 48 8;
-  --primary-r: 252;
-  --primary-g: 48;
-  --primary-b: 8;
-  --primary-h: 10;
+  --primary-hex: #086afd;
+  --primary-hsl: 216 98% 51%;
+  --primary-rgb: 8 106 253;
+  --primary-r: 8;
+  --primary-g: 106;
+  --primary-b: 253;
+  --primary-h: 216;
   --primary-s: 98%;
   --primary-l: 51%;
-  --primary-hover-h: 10;
+  --primary-hover-h: 216;
   --primary-hover-s: 98%;
   --primary-hover-l: 58.65%;
-  --primary-ultra-light-h: 10;
+  --primary-ultra-light-h: 216;
   --primary-ultra-light-s: 98%;
   --primary-ultra-light-l: 95%;
-  --primary-light-h: 10;
+  --primary-light-h: 216;
   --primary-light-s: 98%;
   --primary-light-l: 85%;
-  --primary-semi-light-h: 10;
+  --primary-semi-light-h: 216;
   --primary-semi-light-s: 98%;
   --primary-semi-light-l: 65%;
-  --primary-semi-dark-h: 10;
+  --primary-semi-dark-h: 216;
   --primary-semi-dark-s: 98%;
   --primary-semi-dark-l: 35%;
-  --primary-dark-h: 10;
+  --primary-dark-h: 216;
   --primary-dark-s: 98%;
   --primary-dark-l: 25%;
-  --primary-ultra-dark-h: 10;
+  --primary-ultra-dark-h: 216;
   --primary-ultra-dark-s: 98%;
   --primary-ultra-dark-l: 10%;
-  --primary-comp-h: 190;
-  --primary-medium-h: 10;
+  --primary-comp-h: 396;
+  --primary-medium-h: 216;
   --primary-medium-s: 98%;
   --primary-medium-l: 50%;
-  --secondary-hex: #f07436;
+  --secondary-hex: #f07538;
   --secondary-hsl: 20 86% 58%;
-  --secondary-rgb: 240 116 54;
+  --secondary-rgb: 240 117 56;
   --secondary-r: 240;
-  --secondary-g: 116;
-  --secondary-b: 54;
+  --secondary-g: 117;
+  --secondary-b: 56;
   --secondary-h: 20;
   --secondary-s: 86%;
   --secondary-l: 58%;
@@ -136,17 +136,17 @@
   --neutral-medium-h: 0;
   --neutral-medium-s: 2%;
   --neutral-medium-l: 50%;
-  --primary: #fc3008;
-  --primary-hover: #fd512e;
-  --primary-ultra-light: #ffeae6;
-  --primary-light: #fec0b3;
-  --primary-semi-light: #fd6b4e;
-  --primary-semi-dark: #b11f02;
-  --primary-dark: #7e1601;
-  --primary-ultra-dark: #320901;
-  --primary-comp: #08d4fd;
-  --primary-medium: #fc2c03;
-  --secondary: #f07436;
+  --primary: #086afd;
+  --primary-hover: #2e81fd;
+  --primary-ultra-light: #e6f0ff;
+  --primary-light: #b3d1fe;
+  --primary-semi-light: #4e94fd;
+  --primary-semi-dark: #0248b1;
+  --primary-dark: #01337e;
+  --primary-ultra-dark: #011532;
+  --primary-comp: #fd9b08;
+  --primary-medium: #0367fc;
+  --secondary: #f07538;
   --secondary-hover: #f38e5c;
   --secondary-ultra-light: #fdefe7;
   --secondary-light: #faceb8;
@@ -178,51 +178,51 @@
   --neutral-medium: #827d7d;
   --white: #fff;
   --black: #000;
-  --primary-trans-10: rgba(252, 48, 8, 0.1);
-  --primary-trans-20: rgba(252, 48, 8, 0.2);
-  --primary-trans-30: rgba(252, 48, 8, 0.3);
-  --primary-trans-40: rgba(252, 48, 8, 0.4);
-  --primary-trans-50: rgba(252, 48, 8, 0.5);
-  --primary-trans-60: rgba(252, 48, 8, 0.6);
-  --primary-trans-70: rgba(252, 48, 8, 0.7);
-  --primary-trans-80: rgba(252, 48, 8, 0.8);
-  --primary-trans-90: rgba(252, 48, 8, 0.9);
-  --primary-light-trans-10: rgba(254, 192, 179, 0.1);
-  --primary-light-trans-20: rgba(254, 192, 179, 0.2);
-  --primary-light-trans-30: rgba(254, 192, 179, 0.3);
-  --primary-light-trans-40: rgba(254, 192, 179, 0.4);
-  --primary-light-trans-50: rgba(254, 192, 179, 0.5);
-  --primary-light-trans-60: rgba(254, 192, 179, 0.6);
-  --primary-light-trans-70: rgba(254, 192, 179, 0.7);
-  --primary-light-trans-80: rgba(254, 192, 179, 0.8);
-  --primary-light-trans-90: rgba(254, 192, 179, 0.9);
-  --primary-dark-trans-10: rgba(126, 22, 1, 0.1);
-  --primary-dark-trans-20: rgba(126, 22, 1, 0.2);
-  --primary-dark-trans-30: rgba(126, 22, 1, 0.3);
-  --primary-dark-trans-40: rgba(126, 22, 1, 0.4);
-  --primary-dark-trans-50: rgba(126, 22, 1, 0.5);
-  --primary-dark-trans-60: rgba(126, 22, 1, 0.6);
-  --primary-dark-trans-70: rgba(126, 22, 1, 0.7);
-  --primary-dark-trans-80: rgba(126, 22, 1, 0.8);
-  --primary-dark-trans-90: rgba(126, 22, 1, 0.9);
-  --primary-ultra-dark-trans-10: rgba(50, 9, 1, 0.1);
-  --primary-ultra-dark-trans-20: rgba(50, 9, 1, 0.2);
-  --primary-ultra-dark-trans-30: rgba(50, 9, 1, 0.3);
-  --primary-ultra-dark-trans-40: rgba(50, 9, 1, 0.4);
-  --primary-ultra-dark-trans-50: rgba(50, 9, 1, 0.5);
-  --primary-ultra-dark-trans-60: rgba(50, 9, 1, 0.6);
-  --primary-ultra-dark-trans-70: rgba(50, 9, 1, 0.7);
-  --primary-ultra-dark-trans-80: rgba(50, 9, 1, 0.8);
-  --primary-ultra-dark-trans-90: rgba(50, 9, 1, 0.9);
-  --secondary-trans-10: rgba(240, 116, 54, 0.1);
-  --secondary-trans-20: rgba(240, 116, 54, 0.2);
-  --secondary-trans-30: rgba(240, 116, 54, 0.3);
-  --secondary-trans-40: rgba(240, 116, 54, 0.4);
-  --secondary-trans-50: rgba(240, 116, 54, 0.5);
-  --secondary-trans-60: rgba(240, 116, 54, 0.6);
-  --secondary-trans-70: rgba(240, 116, 54, 0.7);
-  --secondary-trans-80: rgba(240, 116, 54, 0.8);
-  --secondary-trans-90: rgba(240, 116, 54, 0.9);
+  --primary-trans-10: rgba(8, 106, 253, 0.1);
+  --primary-trans-20: rgba(8, 106, 253, 0.2);
+  --primary-trans-30: rgba(8, 106, 253, 0.3);
+  --primary-trans-40: rgba(8, 106, 253, 0.4);
+  --primary-trans-50: rgba(8, 106, 253, 0.5);
+  --primary-trans-60: rgba(8, 106, 253, 0.6);
+  --primary-trans-70: rgba(8, 106, 253, 0.7);
+  --primary-trans-80: rgba(8, 106, 253, 0.8);
+  --primary-trans-90: rgba(8, 106, 253, 0.9);
+  --primary-light-trans-10: rgba(179, 209, 254, 0.1);
+  --primary-light-trans-20: rgba(179, 209, 254, 0.2);
+  --primary-light-trans-30: rgba(179, 209, 254, 0.3);
+  --primary-light-trans-40: rgba(179, 209, 254, 0.4);
+  --primary-light-trans-50: rgba(179, 209, 254, 0.5);
+  --primary-light-trans-60: rgba(179, 209, 254, 0.6);
+  --primary-light-trans-70: rgba(179, 209, 254, 0.7);
+  --primary-light-trans-80: rgba(179, 209, 254, 0.8);
+  --primary-light-trans-90: rgba(179, 209, 254, 0.9);
+  --primary-dark-trans-10: rgba(1, 51, 126, 0.1);
+  --primary-dark-trans-20: rgba(1, 51, 126, 0.2);
+  --primary-dark-trans-30: rgba(1, 51, 126, 0.3);
+  --primary-dark-trans-40: rgba(1, 51, 126, 0.4);
+  --primary-dark-trans-50: rgba(1, 51, 126, 0.5);
+  --primary-dark-trans-60: rgba(1, 51, 126, 0.6);
+  --primary-dark-trans-70: rgba(1, 51, 126, 0.7);
+  --primary-dark-trans-80: rgba(1, 51, 126, 0.8);
+  --primary-dark-trans-90: rgba(1, 51, 126, 0.9);
+  --primary-ultra-dark-trans-10: rgba(1, 21, 50, 0.1);
+  --primary-ultra-dark-trans-20: rgba(1, 21, 50, 0.2);
+  --primary-ultra-dark-trans-30: rgba(1, 21, 50, 0.3);
+  --primary-ultra-dark-trans-40: rgba(1, 21, 50, 0.4);
+  --primary-ultra-dark-trans-50: rgba(1, 21, 50, 0.5);
+  --primary-ultra-dark-trans-60: rgba(1, 21, 50, 0.6);
+  --primary-ultra-dark-trans-70: rgba(1, 21, 50, 0.7);
+  --primary-ultra-dark-trans-80: rgba(1, 21, 50, 0.8);
+  --primary-ultra-dark-trans-90: rgba(1, 21, 50, 0.9);
+  --secondary-trans-10: rgba(240, 117, 56, 0.1);
+  --secondary-trans-20: rgba(240, 117, 56, 0.2);
+  --secondary-trans-30: rgba(240, 117, 56, 0.3);
+  --secondary-trans-40: rgba(240, 117, 56, 0.4);
+  --secondary-trans-50: rgba(240, 117, 56, 0.5);
+  --secondary-trans-60: rgba(240, 117, 56, 0.6);
+  --secondary-trans-70: rgba(240, 117, 56, 0.7);
+  --secondary-trans-80: rgba(240, 117, 56, 0.8);
+  --secondary-trans-90: rgba(240, 117, 56, 0.9);
   --secondary-light-trans-10: rgba(250, 206, 184, 0.1);
   --secondary-light-trans-20: rgba(250, 206, 184, 0.2);
   --secondary-light-trans-30: rgba(250, 206, 184, 0.3);
@@ -351,9 +351,12 @@
   --text-dark: var(--black);
   --text-dark-muted: var(--neutral-dark);
   --body-bg-color: var(--white);
+  --body-color: var(--neutral-semi-dark);
+  --heading-color: var(--neutral);
 }
 :root {
   --section-padding-x: 2.4rem;
+  --section-padding-block: var(--section-space-m);
   --section-gutter: 2.4rem;
   --gutter: 2.4rem;
   --text-xs: 1.26rem;
@@ -424,14 +427,6 @@
   --grid-auto-4: repeat(auto-fit, minmax(min(24.4488977956rem, 100vw - 6rem), 1fr));
   --grid-auto-5: repeat(auto-fit, minmax(min(20.367278798rem, 100vw - 6rem), 1fr));
   --grid-auto-6: repeat(auto-fit, minmax(min(17.4535050072rem, 100vw - 6rem), 1fr));
-  --header-height: 0rem;
-  --offset: 0rem;
-  --offset-xxl: 0rem;
-  --offset-xl: 0rem;
-  --offset-l: 0rem;
-  --offset-m: 0rem;
-  --offset-s: 0rem;
-  --offset-xs: 0rem;
   --link-underline-offset: 0;
   --focus-color: var(--action);
   --focus-width: 0.2rem;
@@ -446,22 +441,22 @@
   --text-xxl-line-height: 1.5;
   --text-xl-line-height: 1.5;
   --text-l-line-height: 1.5;
-  --text-m-line-height: 1.5;
+  --text-m-line-height: calc(1.5);
   --text-s-line-height: 1.5;
   --text-xs-line-height: 1.5;
-  --base-text-lh: 1.5;
+  --base-text-lh: calc(1.5);
   --heading-color: var(--neutral);
-  --heading-line-height: 1.2;
+  --heading-line-height: calc(1.2);
   --heading-text-wrap: balance;
-  --base-heading-lh: 1.2;
+  --base-heading-lh: calc(1.2);
   --h1-line-height: 1.2;
   --h2-line-height: 1.2;
   --h3-line-height: 1.2;
-  --h4-line-height: 1.2;
+  --h4-line-height: calc(1.2);
   --h5-line-height: 1.2;
   --h6-line-height: 1.2;
   --text-color: var(--neutral-semi-dark);
-  --text-line-height: 1.5;
+  --text-line-height: calc(1.5);
   --text-text-wrap: pretty;
 }
 :root {
@@ -490,6 +485,8 @@
   --btn-outline-border-width: 0.25rem;
   --btn-border-style: solid;
   --btn-border-radius: 1.1rem;
+  --btn-justify-content: center;
+  --btn-text-align: center;
 }
 /* Deprecated in ACSS 2.7 */
 :root {
@@ -553,6 +550,29 @@
 }
 :root {
   --transition-duration: 0.3s;
+}
+body.boxed-layout {
+  inline-size: 100%;
+  max-inline-size: var(--body-max-width, 1920px);
+  box-shadow: var(--body-box-shadow, 0 0 80px 0 var(--neutral-ultra-dark-trans-20));
+  border-color: var(--body-border-color, transparent);
+  border-style: var(--body-border-style, none);
+  border-width: var(--body-border-width, 0);
+  border-radius: var(--body-border-radius, 0);
+  margin-block-start: var(--body-margin-top, 0) !important;
+  margin-inline: auto !important;
+}
+body.boxed-layout header.sticky, body.boxed-layout #brx-header.sticky.sticky {
+  width: var(--boxed-width);
+  max-width: 100%;
+  left: 50%;
+  translate: -50% 0%;
+}
+body.boxed-layout header.sticky.on-scroll, body.boxed-layout #brx-header.sticky.sticky.on-scroll {
+  translate: 0% 0% !important;
+}
+[id] {
+  scroll-margin-top: var(--offset, 0);
 }
 .color-scheme--alt {
   --neutral-hex: #ffffff;
@@ -655,34 +675,64 @@
   --black-trans-70: rgba(255, 255, 255, 0.7);
   --black-trans-80: rgba(255, 255, 255, 0.8);
   --black-trans-90: rgba(255, 255, 255, 0.9);
+  --bg-ultra-light: var(--white);
+  --bg-light: var(--neutral-ultra-light);
+  --bg-dark: var(--neutral-ultra-dark);
+  --bg-ultra-dark: var(--black);
+  --text-light: var(--white);
+  --text-light-muted: var(--neutral-light);
+  --text-dark: var(--black);
+  --text-dark-muted: var(--neutral-dark);
+  --body-bg-color: var(--white);
+  --body-color: var(--neutral-semi-dark);
+  --heading-color: var(--neutral);
 }
 :where(:root, .color-scheme--main) {
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+:where(.color-scheme--alt) {
   background-color: var(--body-bg);
   color: var(--body-color);
 }
 :where(:root, .color-scheme--main h1) {
   color: var(--h1-color, var(--heading-color));
 }
+:where(.color-scheme--alt h1) {
+  color: var(--h1-color, var(--heading-color));
+}
 :where(:root, .color-scheme--main h2) {
+  color: var(--h2-color, var(--heading-color));
+}
+:where(.color-scheme--alt h2) {
   color: var(--h2-color, var(--heading-color));
 }
 :where(:root, .color-scheme--main h3) {
   color: var(--h3-color, var(--heading-color));
 }
+:where(.color-scheme--alt h3) {
+  color: var(--h3-color, var(--heading-color));
+}
 :where(:root, .color-scheme--main h4) {
+  color: var(--h4-color, var(--heading-color));
+}
+:where(.color-scheme--alt h4) {
   color: var(--h4-color, var(--heading-color));
 }
 :where(:root, .color-scheme--main h5) {
   color: var(--h5-color, var(--heading-color));
 }
+:where(.color-scheme--alt h5) {
+  color: var(--h5-color, var(--heading-color));
+}
 :where(:root, .color-scheme--main h6) {
+  color: var(--h6-color, var(--heading-color));
+}
+:where(.color-scheme--alt h6) {
   color: var(--h6-color, var(--heading-color));
 }
 html {
   font-size: var(--root-font-size) !important;
-}
-[id] {
-  scroll-margin-top: var(--offset);
 }
 *, *::before, *::after {
   box-sizing: border-box;
@@ -695,10 +745,6 @@ input, button, textarea, select {
 }
 :where(dd) {
   margin-inline-start: 0;
-}
-img {
-  object-fit: var(--object-fit, cover);
-  object-position: var(--object-position, 50% 50%);
 }
 .focus-parent:focus-within {
   outline: var(--focus-width) solid var(--focus-color);
@@ -752,71 +798,71 @@ body:not(:has([data-sticky-header="0"]), .content-offset--off) .acss-offset-cont
   margin-block-start: var(--header-height);
 }
 :where(section:not(section section)) {
-  padding-block: var(--section-space-m);
+  padding-block: var(--section-padding-block);
   padding-inline: var(--gutter);
 }
-body :where(p, h1, h2, h3, h4, h5, h6, ul, ol, li) {
+body:where(:not(.block-editor-writing-flow, .editor-styles-wrapper)) :where(p, h1, h2, h3, h4, h5, h6, ul, ol, li) {
   margin-block: 0;
 }
 .smart-spacing-normalize :where(p, h1, h2, h3, h4, h5, h6, ul, ol, li) {
   margin-block: 0;
 }
-.smart-spacing-preview > * + *, .smart-spacing > * + * {
+.smart-spacing-preview > * + *, .smart-spacing.smart-spacing > * + * {
   margin-block-start: var(--flow-spacing, initial);
   margin-block-end: 0;
 }
-.smart-spacing-preview > * + :where(h1, h2, h3, h4, h5, h6), .smart-spacing > * + :where(h1, h2, h3, h4, h5, h6) {
+.smart-spacing-preview > * + :where(h1, h2, h3, h4, h5, h6), .smart-spacing.smart-spacing > * + :where(h1, h2, h3, h4, h5, h6) {
   margin-block-start: var(--heading-spacing, var(--flow-spacing, initial));
   margin-block-end: 0;
 }
-.smart-spacing-preview > :where(* + h2), .smart-spacing > :where(* + h2) {
+.smart-spacing-preview > :where(* + h2), .smart-spacing.smart-spacing > :where(* + h2) {
   margin-block-start: var(--h2-spacing, var(--heading-spacing));
   margin-block-end: 0;
 }
-.smart-spacing-preview > :where(* + h3), .smart-spacing > :where(* + h3) {
+.smart-spacing-preview > :where(* + h3), .smart-spacing.smart-spacing > :where(* + h3) {
   margin-block-start: var(--h3-spacing, var(--heading-spacing));
   margin-block-end: 0;
 }
-.smart-spacing-preview > :where(* + h4), .smart-spacing > :where(* + h4) {
+.smart-spacing-preview > :where(* + h4), .smart-spacing.smart-spacing > :where(* + h4) {
   margin-block-start: var(--h4-spacing, var(--heading-spacing));
   margin-block-end: 0;
 }
-.smart-spacing-preview > :where(* + h5), .smart-spacing > :where(* + h5) {
+.smart-spacing-preview > :where(* + h5), .smart-spacing.smart-spacing > :where(* + h5) {
   margin-block-start: var(--h5-spacing, var(--heading-spacing));
   margin-block-end: 0;
 }
-.smart-spacing-preview > :where(* + h6), .smart-spacing > :where(* + h6) {
+.smart-spacing-preview > :where(* + h6), .smart-spacing.smart-spacing > :where(* + h6) {
   margin-block-start: var(--h6-spacing, var(--heading-spacing));
   margin-block-end: 0;
 }
-.smart-spacing-preview > * + p, .smart-spacing > * + p {
+.smart-spacing-preview > * + p, .smart-spacing.smart-spacing > * + p {
   margin-block-start: var(--paragraph-spacing, var(--flow-spacing, initial));
   margin-block-end: 0;
 }
-.smart-spacing-preview > :is(* + ul, * + ol), .smart-spacing > :is(* + ul, * + ol) {
+.smart-spacing-preview > :is(* + ul, * + ol), .smart-spacing.smart-spacing > :is(* + ul, * + ol) {
   margin-block: var(--list-spacing, var(--flow-spacing, initial));
 }
-.smart-spacing-preview > :is(ul, ol), .smart-spacing > :is(ul, ol) {
+.smart-spacing-preview > :is(ul, ol), .smart-spacing.smart-spacing > :is(ul, ol) {
   padding-inline-start: var(--list-indent-spacing, var(--flow-spacing, initial));
 }
-.smart-spacing-preview * + li, .smart-spacing * + li {
+.smart-spacing-preview > ul * + li, .smart-spacing-preview > ol * + li, .smart-spacing.smart-spacing > ul * + li, .smart-spacing.smart-spacing > ol * + li {
   margin-block-start: var(--list-item-spacing, var(--flow-spacing, initial));
   margin-block-end: 0;
 }
-.smart-spacing-preview > ul ul, .smart-spacing > ul ul {
+.smart-spacing-preview > ul ul, .smart-spacing-preview > ol ol, .smart-spacing-preview > ul ol, .smart-spacing-preview > ol ul, .smart-spacing.smart-spacing > ul ul, .smart-spacing.smart-spacing > ol ol, .smart-spacing.smart-spacing > ul ol, .smart-spacing.smart-spacing > ol ul {
   margin-block: var(--nested-list-spacing, var(--list-item-spacing, initial));
   padding-inline-start: var(--nested-list-indent-spacing, initial);
 }
-.smart-spacing-preview > :is(ul, ol) :is(ul, ol) li, .smart-spacing > :is(ul, ol) :is(ul, ol) li {
+.smart-spacing-preview > :is(ul, ol) :is(ul, ol) li, .smart-spacing.smart-spacing > :is(ul, ol) :is(ul, ol) li {
   margin-block-start: var(--nested-list-item-spacing, var(--list-item-spacing, initial));
 }
-.smart-spacing-preview > * + figure, .smart-spacing > * + figure {
+.smart-spacing-preview > * + figure, .smart-spacing.smart-spacing > * + figure {
   margin-block: var(--figure-spacing, var(--flow-spacing, initial));
 }
-.smart-spacing-preview figcaption, .smart-spacing figcaption {
+.smart-spacing-preview figcaption, .smart-spacing.smart-spacing figcaption {
   margin-block: var(--figcaption-spacing, var(--flow-spacing, initial));
 }
-.smart-spacing-preview > * + blockquote:where(:not(figure > blockquote)), .smart-spacing > * + blockquote:where(:not(figure > blockquote)) {
+.smart-spacing-preview > * + blockquote:where(:not(figure > blockquote)), .smart-spacing.smart-spacing > * + blockquote:where(:not(figure > blockquote)) {
   margin-block: var(--blockquote-spacing, var(--flow-spacing, initial));
 }
 :where(.woocommerce-checkout) p {
@@ -860,11 +906,11 @@ body :where(p, h1, h2, h3, h4, h5, h6, ul, ol, li) {
 .brxe-text > :is(ul, ol), .brxe-post-content:where(:not([data-source="bricks"])) > :is(ul, ol) {
   padding-inline-start: var(--list-indent-spacing, var(--flow-spacing, initial));
 }
-.brxe-text * + li, .brxe-post-content:where(:not([data-source="bricks"])) * + li {
+.brxe-text > ul * + li, .brxe-text > ol * + li, .brxe-post-content:where(:not([data-source="bricks"])) > ul * + li, .brxe-post-content:where(:not([data-source="bricks"])) > ol * + li {
   margin-block-start: var(--list-item-spacing, var(--flow-spacing, initial));
   margin-block-end: 0;
 }
-.brxe-text > ul ul, .brxe-post-content:where(:not([data-source="bricks"])) > ul ul {
+.brxe-text > ul ul, .brxe-text > ol ol, .brxe-text > ul ol, .brxe-text > ol ul, .brxe-post-content:where(:not([data-source="bricks"])) > ul ul, .brxe-post-content:where(:not([data-source="bricks"])) > ol ol, .brxe-post-content:where(:not([data-source="bricks"])) > ul ol, .brxe-post-content:where(:not([data-source="bricks"])) > ol ul {
   margin-block: var(--nested-list-spacing, var(--list-item-spacing, initial));
   padding-inline-start: var(--nested-list-indent-spacing, initial);
 }
@@ -922,11 +968,11 @@ body :where(p:last-of-type) + :is(h1, h2, h3, h4, h5, h6) {
 :not(.woocommerce-checkout) [class*="woocommerce"] * + p > :is(ul, ol) {
   padding-inline-start: var(--list-indent-spacing, var(--flow-spacing, initial));
 }
-:not(.woocommerce-checkout) [class*="woocommerce"] * + p * + li {
+:not(.woocommerce-checkout) [class*="woocommerce"] * + p > ul * + li, :not(.woocommerce-checkout) [class*="woocommerce"] * + p > ol * + li {
   margin-block-start: var(--list-item-spacing, var(--flow-spacing, initial));
   margin-block-end: 0;
 }
-:not(.woocommerce-checkout) [class*="woocommerce"] * + p > ul ul {
+:not(.woocommerce-checkout) [class*="woocommerce"] * + p > ul ul, :not(.woocommerce-checkout) [class*="woocommerce"] * + p > ol ol, :not(.woocommerce-checkout) [class*="woocommerce"] * + p > ul ol, :not(.woocommerce-checkout) [class*="woocommerce"] * + p > ol ul {
   margin-block: var(--nested-list-spacing, var(--list-item-spacing, initial));
   padding-inline-start: var(--nested-list-indent-spacing, initial);
 }
@@ -1566,17 +1612,45 @@ body :where(p:last-of-type) + :is(h1, h2, h3, h4, h5, h6) {
 .bg--ultra-dark {
   background-color: var(--bg-ultra-dark);
 }
-.text--light {
+.text--light.text--light, .text--light.text--light :where(:is(h1, h2, h3, h4, h5, h6)) {
   color: var(--text-light);
 }
-.text--light-muted {
+.text--light {
+  --link-color: var(--text-light);
+  --link-color-hover: var(--text-light-muted);
+}
+.text--light-muted.text--light-muted, .text--light-muted.text--light-muted :where(:is(h1, h2, h3, h4, h5, h6)) {
   color: var(--text-light-muted);
 }
-.text--dark {
+.text--light-muted {
+  --link-color: var(--text-light-muted);
+  --link-color-hover: var(--text-light-muted-muted);
+}
+.text--dark.text--dark, .text--dark.text--dark :where(:is(h1, h2, h3, h4, h5, h6)) {
   color: var(--text-dark);
 }
-.text--dark-muted {
+.text--dark {
+  --link-color: var(--text-dark);
+  --link-color-hover: var(--text-dark-muted);
+}
+.text--dark-muted.text--dark-muted, .text--dark-muted.text--dark-muted :where(:is(h1, h2, h3, h4, h5, h6)) {
   color: var(--text-dark-muted);
+}
+.text--dark-muted {
+  --link-color: var(--text-dark-muted);
+  --link-color-hover: var(--text-dark-muted-muted);
+}
+:root, .color-scheme--main {
+  --bg-ultra-light-text: var(--text-dark);
+  --bg-light-text: var(--text-dark);
+  --bg-dark-text: var(--text-light);
+  --bg-ultra-dark-text: var(--text-light);
+}
+.color-scheme--alt {
+  --bg-ultra-light-text: var(--text-dark);
+  --bg-light-text: var(--text-dark);
+  --bg-dark-text: var(--text-light);
+  --bg-ultra-dark-text: var(--text-light);
 }
 :where(.bg--ultra-light), .bg--ultra-light :is(h1, h2, h3, h4, h5, h6) {
   color: var(--bg-ultra-light-text, var(--text-dark));
@@ -2700,6 +2774,42 @@ blockquote {
   grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
   inline-size: 100%;
 }
+.grid-rows--1 {
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+.grid-rows--2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+.grid-rows--3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+.grid-rows--4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+.grid-rows--5 {
+  grid-template-rows: repeat(5, minmax(0, 1fr));
+}
+.grid-rows--6 {
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+.grid-rows--7 {
+  grid-template-rows: repeat(7, minmax(0, 1fr));
+}
+.grid-rows--8 {
+  grid-template-rows: repeat(8, minmax(0, 1fr));
+}
+.grid-rows--9 {
+  grid-template-rows: repeat(9, minmax(0, 1fr));
+}
+.grid-rows--10 {
+  grid-template-rows: repeat(10, minmax(0, 1fr));
+}
+.grid-rows--11 {
+  grid-template-rows: repeat(11, minmax(0, 1fr));
+}
+.grid-rows--12 {
+  grid-template-rows: repeat(12, minmax(0, 1fr));
+}
 @media (max-width: 1280px) {
   .grid--xl-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -2739,6 +2849,42 @@ blockquote {
   }
   .grid--xl-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+  .grid-rows--xl-1 {
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+  .grid-rows--xl-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+  .grid-rows--xl-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+  }
+  .grid-rows--xl-4 {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+  }
+  .grid-rows--xl-5 {
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+  }
+  .grid-rows--xl-6 {
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+  }
+  .grid-rows--xl-7 {
+    grid-template-rows: repeat(7, minmax(0, 1fr));
+  }
+  .grid-rows--xl-8 {
+    grid-template-rows: repeat(8, minmax(0, 1fr));
+  }
+  .grid-rows--xl-9 {
+    grid-template-rows: repeat(9, minmax(0, 1fr));
+  }
+  .grid-rows--xl-10 {
+    grid-template-rows: repeat(10, minmax(0, 1fr));
+  }
+  .grid-rows--xl-11 {
+    grid-template-rows: repeat(11, minmax(0, 1fr));
+  }
+  .grid-rows--xl-12 {
+    grid-template-rows: repeat(12, minmax(0, 1fr));
   }
 }
 @media (max-width: 992px) {
@@ -2781,6 +2927,42 @@ blockquote {
   .grid--l-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
+  .grid-rows--l-1 {
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+  .grid-rows--l-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+  .grid-rows--l-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+  }
+  .grid-rows--l-4 {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+  }
+  .grid-rows--l-5 {
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+  }
+  .grid-rows--l-6 {
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+  }
+  .grid-rows--l-7 {
+    grid-template-rows: repeat(7, minmax(0, 1fr));
+  }
+  .grid-rows--l-8 {
+    grid-template-rows: repeat(8, minmax(0, 1fr));
+  }
+  .grid-rows--l-9 {
+    grid-template-rows: repeat(9, minmax(0, 1fr));
+  }
+  .grid-rows--l-10 {
+    grid-template-rows: repeat(10, minmax(0, 1fr));
+  }
+  .grid-rows--l-11 {
+    grid-template-rows: repeat(11, minmax(0, 1fr));
+  }
+  .grid-rows--l-12 {
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+  }
 }
 @media (max-width: 768px) {
   .grid--m-1 {
@@ -2822,6 +3004,42 @@ blockquote {
   .grid--m-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
+  .grid-rows--m-1 {
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+  .grid-rows--m-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+  .grid-rows--m-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+  }
+  .grid-rows--m-4 {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+  }
+  .grid-rows--m-5 {
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+  }
+  .grid-rows--m-6 {
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+  }
+  .grid-rows--m-7 {
+    grid-template-rows: repeat(7, minmax(0, 1fr));
+  }
+  .grid-rows--m-8 {
+    grid-template-rows: repeat(8, minmax(0, 1fr));
+  }
+  .grid-rows--m-9 {
+    grid-template-rows: repeat(9, minmax(0, 1fr));
+  }
+  .grid-rows--m-10 {
+    grid-template-rows: repeat(10, minmax(0, 1fr));
+  }
+  .grid-rows--m-11 {
+    grid-template-rows: repeat(11, minmax(0, 1fr));
+  }
+  .grid-rows--m-12 {
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+  }
 }
 @media (max-width: 480px) {
   .grid--s-1 {
@@ -2862,6 +3080,42 @@ blockquote {
   }
   .grid--s-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+  .grid-rows--s-1 {
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+  .grid-rows--s-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+  .grid-rows--s-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+  }
+  .grid-rows--s-4 {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+  }
+  .grid-rows--s-5 {
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+  }
+  .grid-rows--s-6 {
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+  }
+  .grid-rows--s-7 {
+    grid-template-rows: repeat(7, minmax(0, 1fr));
+  }
+  .grid-rows--s-8 {
+    grid-template-rows: repeat(8, minmax(0, 1fr));
+  }
+  .grid-rows--s-9 {
+    grid-template-rows: repeat(9, minmax(0, 1fr));
+  }
+  .grid-rows--s-10 {
+    grid-template-rows: repeat(10, minmax(0, 1fr));
+  }
+  .grid-rows--s-11 {
+    grid-template-rows: repeat(11, minmax(0, 1fr));
+  }
+  .grid-rows--s-12 {
+    grid-template-rows: repeat(12, minmax(0, 1fr));
   }
 }
 @media (max-width: 992px) {
@@ -3055,10 +3309,10 @@ blockquote {
   }
 }
 .row-span--1 {
-  grid-row: span 1;
+  grid-row-end: span 1;
 }
 .col-span--1 {
-  grid-column: span 1;
+  grid-column-end: span 1;
 }
 .row-start--1 {
   grid-row-start: 1;
@@ -3073,10 +3327,10 @@ blockquote {
   grid-column-end: 1;
 }
 .row-span--2 {
-  grid-row: span 2;
+  grid-row-end: span 2;
 }
 .col-span--2 {
-  grid-column: span 2;
+  grid-column-end: span 2;
 }
 .row-start--2 {
   grid-row-start: 2;
@@ -3091,10 +3345,10 @@ blockquote {
   grid-column-end: 2;
 }
 .row-span--3 {
-  grid-row: span 3;
+  grid-row-end: span 3;
 }
 .col-span--3 {
-  grid-column: span 3;
+  grid-column-end: span 3;
 }
 .row-start--3 {
   grid-row-start: 3;
@@ -3109,10 +3363,10 @@ blockquote {
   grid-column-end: 3;
 }
 .row-span--4 {
-  grid-row: span 4;
+  grid-row-end: span 4;
 }
 .col-span--4 {
-  grid-column: span 4;
+  grid-column-end: span 4;
 }
 .row-start--4 {
   grid-row-start: 4;
@@ -3127,10 +3381,10 @@ blockquote {
   grid-column-end: 4;
 }
 .row-span--5 {
-  grid-row: span 5;
+  grid-row-end: span 5;
 }
 .col-span--5 {
-  grid-column: span 5;
+  grid-column-end: span 5;
 }
 .row-start--5 {
   grid-row-start: 5;
@@ -3145,10 +3399,10 @@ blockquote {
   grid-column-end: 5;
 }
 .row-span--6 {
-  grid-row: span 6;
+  grid-row-end: span 6;
 }
 .col-span--6 {
-  grid-column: span 6;
+  grid-column-end: span 6;
 }
 .row-start--6 {
   grid-row-start: 6;
@@ -3163,10 +3417,10 @@ blockquote {
   grid-column-end: 6;
 }
 .row-span--7 {
-  grid-row: span 7;
+  grid-row-end: span 7;
 }
 .col-span--7 {
-  grid-column: span 7;
+  grid-column-end: span 7;
 }
 .row-start--7 {
   grid-row-start: 7;
@@ -3181,10 +3435,10 @@ blockquote {
   grid-column-end: 7;
 }
 .row-span--8 {
-  grid-row: span 8;
+  grid-row-end: span 8;
 }
 .col-span--8 {
-  grid-column: span 8;
+  grid-column-end: span 8;
 }
 .row-start--8 {
   grid-row-start: 8;
@@ -3199,10 +3453,10 @@ blockquote {
   grid-column-end: 8;
 }
 .row-span--9 {
-  grid-row: span 9;
+  grid-row-end: span 9;
 }
 .col-span--9 {
-  grid-column: span 9;
+  grid-column-end: span 9;
 }
 .row-start--9 {
   grid-row-start: 9;
@@ -3217,10 +3471,10 @@ blockquote {
   grid-column-end: 9;
 }
 .row-span--10 {
-  grid-row: span 10;
+  grid-row-end: span 10;
 }
 .col-span--10 {
-  grid-column: span 10;
+  grid-column-end: span 10;
 }
 .row-start--10 {
   grid-row-start: 10;
@@ -3235,10 +3489,10 @@ blockquote {
   grid-column-end: 10;
 }
 .row-span--11 {
-  grid-row: span 11;
+  grid-row-end: span 11;
 }
 .col-span--11 {
-  grid-column: span 11;
+  grid-column-end: span 11;
 }
 .row-start--11 {
   grid-row-start: 11;
@@ -3253,10 +3507,10 @@ blockquote {
   grid-column-end: 11;
 }
 .row-span--12 {
-  grid-row: span 12;
+  grid-row-end: span 12;
 }
 .col-span--12 {
-  grid-column: span 12;
+  grid-column-end: span 12;
 }
 .row-start--12 {
   grid-row-start: 12;
@@ -4254,10 +4508,6 @@ blockquote {
   inline-size: calc(var(--content-width) * 1);
   max-inline-size: 100%;
 }
-.width--full:not([class*="breakout--"]) {
-  inline-size: calc(var(--content-width) * 100%);
-  max-inline-size: 100%;
-}
 .width--10:not([class*="breakout--"]) {
   inline-size: calc(var(--content-width) * 0.1);
   max-inline-size: 100%;
@@ -4292,6 +4542,10 @@ blockquote {
 }
 .width--90:not([class*="breakout--"]) {
   inline-size: calc(var(--content-width) * 0.9);
+  max-inline-size: 100%;
+}
+.width--full:not([class*="breakout--"]) {
+  inline-size: 100%;
   max-inline-size: 100%;
 }
 figure[class*="width--"] img {
@@ -5011,26 +5265,18 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
 .fr-bg--dark {
   background-color: var(--bg-dark);
 }
-#bricks-popup.templates .bricks-layout-item-inner {
-  height: 100% !important;
-  aspect-ratio: 1.3333333333;
+:root {
+  --f-light-input-radius: var(--btn-radius);
 }
-#bricks-popup.templates img {
-  height: 100% !important;
-}
-#bricks-popup.templates .bricks-layout-item-inner .button.type {
-  display: none !important;
-}
-#bricks-popup.templates .bricks-layout-item-inner .overlay-wrapper .user {
-  display: none !important;
-}
-#bricks-popup.templates #bricks-popup-inner {
-  max-width: 100% !important;
-}
-@media (min-width: 1440px) {
-  #bricks-popup.templates .bricks-layout-item {
-    width: 25%;
-  }
+:root {
+  --f-label-size: clamp(1.4rem, calc(0.2083333333vw + 1.3333333333rem), 1.6rem);
+  --f-input-size: clamp(1.4rem, calc(0.4166666667vw + 1.2666666667rem), 1.8rem);
+  --f-help-size: clamp(1.2rem, calc(0.2083333333vw + 1.1333333333rem), 1.4rem);
+  --f-legend-size: clamp(1.4rem, calc(0.2083333333vw + 1.3333333333rem), 1.6rem);
+  --f-input-size: clamp(1.4rem, calc(0.4166666667vw + 1.2666666667rem), 1.8rem);
+  --f-btn-text-size: clamp(1.4rem, calc(0.4166666667vw + 1.2666666667rem), 1.8rem);
+  --f-option-label-size: clamp(1.4rem, calc(0.2083333333vw + 1.3333333333rem), 1.6rem);
+  --f-tab-text-size: clamp(1.6rem, calc(0.2083333333vw + 1.5333333333rem), 1.8rem);
 }
 :root {
   --f-light-input-radius: var(--btn-radius);
@@ -5048,9 +5294,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   border-color: var(--f-dark-input-border-color, var(--neutral-medium));
   border-radius: var(--f-input-border-radius, var(--btn-radius));
   color: var(--f-dark-input-text-color, var(--neutral-ultra-light));
-  font-size: 1.8rem;
-  font-size: calc(1.4rem + (0.4 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.4rem, calc(0.4166666667vw + 1.2666666667rem), 1.8rem);
+  font-size: var(--f-input-size, --text-m);
   font-weight: var(--f-input-font-weight, 400);
   line-height: var(--f-input-line-height, 1);
   padding: var(--f-input-padding-y, 0.5em) var(--f-input-padding-x, 1em);
@@ -5064,9 +5308,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
 }
 .form--dark .wsf-form [data-type="texteditor"] {
   color: var(--f-dark-input-text-color, var(--neutral-ultra-light));
-  font-size: 1.8rem;
-  font-size: calc(1.4rem + (0.4 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.4rem, calc(0.4166666667vw + 1.2666666667rem), 1.8rem);
+  font-size: var(--f-input-size, --text-m);
   font-weight: var(--f-input-font-weight, 400);
   line-height: var(--f-input-line-height, 1);
 }
@@ -5091,21 +5333,17 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   padding-inline-end: calc(20px + var(--f-input-padding-x, 1em));
 }
 .form--dark .wsf-form select.wsf-field:invalid {
-  color: hsl(var(--f-dark-input-placeholder-hsl, ) / var(--f-dark-input-placeholder-opacity, 0.5)) !important;
+  color: hsl(var(--f-dark-input-placeholder-hsl, 0 2% 95%) / var(--f-dark-input-placeholder-opacity, 0.5)) !important;
 }
 .form--dark .wsf-form select.wsf-field ~ .select2-container .select2-selection--single .select2-selection__rendered, .form--dark .wsf-form select.wsf-field ~ .select2-container .select2-selection--single .select2-selection__placeholder, .form--dark .wsf-form select.wsf-field ~ .select2-container .select2-selection .select2-search--inline .select2-search__field, .form--dark .wsf-form select.wsf-field ~ .select2-container .select2-selection input.select2-search__field::placeholder {
   color: var(--f-dark-input-text-color, var(--neutral-ultra-light));
-  font-size: 1.8rem;
-  font-size: calc(1.4rem + (0.4 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.4rem, calc(0.4166666667vw + 1.2666666667rem), 1.8rem);
+  font-size: var(--f-input-size, --text-m);
   font-weight: var(--f-input-font-weight, 400);
   line-height: var(--f-input-line-height, 1);
 }
 .form--dark .wsf-form .wsf-select2-dropdown .select2-results .select2-results__option {
   border-top: 1px solid var(--f-dark-input-border-color, var(--neutral-medium));
-  font-size: 1.8rem;
-  font-size: calc(1.4rem + (0.4 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.4rem, calc(0.4166666667vw + 1.2666666667rem), 1.8rem);
+  font-size: var(--f-input-size, --text-m);
 }
 .form--dark .wsf-form .wsf-select2-dropdown .select2-results .select2-results__option--highlighted[aria-selected] {
   background-color: var(--f-dark-input-background, var(--neutral-dark));
@@ -5113,6 +5351,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
 }
 .form--dark .wsf-form.wsf-validated select.wsf-field:not([multiple]):not([size]):invalid, .form--dark .wsf-form.wsf-validated input[type="date"].wsf-field:invalid, .form--dark .wsf-form.wsf-validated input[type="datetime-local"].wsf-field:invalid, .form--dark .wsf-form.wsf-validated input[type="file"].wsf-field:invalid, .form--dark .wsf-form.wsf-validated input[type="month"].wsf-field:invalid, .form--dark .wsf-form.wsf-validated input[type="password"].wsf-field:invalid, .form--dark .wsf-form.wsf-validated input[type="search"].wsf-field:invalid, .form--dark .wsf-form.wsf-validated input[type="time"].wsf-field:invalid, .form--dark .wsf-form.wsf-validated input[type="week"].wsf-field:invalid, .form--dark .wsf-form.wsf-validated input[type="email"].wsf-field:invalid, .form--dark .wsf-form.wsf-validated input[type="number"].wsf-field:invalid, .form--dark .wsf-form.wsf-validated input[type="tel"].wsf-field:invalid, .form--dark .wsf-form.wsf-validated input[type="text"].wsf-field:invalid, .form--dark .wsf-form.wsf-validated input[type="url"].wsf-field:invalid, .form--dark .wsf-form.wsf-validated select.wsf-field:invalid, .form--dark .wsf-form.wsf-validated textarea.wsf-field:invalid {
   border-color: hsl(var(--danger-h, 354), var(--danger-s, 70%), var(--danger-l, 54%));
+  color: hsl(var(--danger-h, 354), var(--danger-s, 70%), var(--danger-l, 54%));
 }
 .form--dark .wsf-form .wsf-invalid-feedback {
   color: hsl(var(--danger-h, 354), var(--danger-s, 70%), var(--danger-l, 54%));
@@ -5127,9 +5366,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
 .form--dark .wsf-form label.wsf-label, .form--dark .wsf-form label {
   background-color: var(--f-dark-label-background-color, transparent);
   color: var(--f-dark-label-text-color, var(--neutral-ultra-light));
-  font-size: var(--text-s-pure, 1.42rem);
-  font-size: calc(var(--f-label-size-min, 1.4) * 1rem + (var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-label-size-min, 1.4) * 1rem, calc(var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 100vw + var(--f-label-size-min, 1.4) - var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 32 * 1rem), var(--f-label-size-max, 1.6) * 1rem);
+  font-size: var(--f-label-size, --text-m);
   font-weight: var(--f-label-font-weight, 400);
   line-height: var(--f-label-line-height, 1);
   margin-bottom: var(--f-label-margin-bottom, 0.5em);
@@ -5139,9 +5376,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
 .form--dark .wsf-form .wsf-label-position-inside input.wsf-field[placeholder] + label, .form--dark .wsf-form .wsf-label-position-inside input.wsf-field[placeholder] + .wsf-input-group-append + label {
   background-color: var(--f-dark-label-background-color, transparent);
   color: var(--f-dark-label-text-color, var(--neutral-ultra-light));
-  font-size: var(--text-s-pure, 1.42rem);
-  font-size: calc(var(--f-label-size-min, 1.4) * 1rem + (var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-label-size-min, 1.4) * 1rem, calc(var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 100vw + var(--f-label-size-min, 1.4) - var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 32 * 1rem), var(--f-label-size-max, 1.6) * 1rem);
+  font-size: var(--f-label-size, --text-m);
   font-weight: var(--f-label-font-weight, 400);
   line-height: var(--f-label-line-height, 1);
   margin-bottom: var(--f-label-margin-bottom, 0.5em);
@@ -5155,9 +5390,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
 .form--dark .wsf-form .wsf-label-position-inside textarea.wsf-field[placeholder] + label, .form--dark .wsf-form .wsf-label-position-inside textarea.wsf-field[placeholder] + .wsf-input-group-append + label {
   background-color: var(--f-dark-label-background-color, transparent);
   color: var(--f-dark-label-text-color, var(--neutral-ultra-light));
-  font-size: var(--text-s-pure, 1.42rem);
-  font-size: calc(var(--f-label-size-min, 1.4) * 1rem + (var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-label-size-min, 1.4) * 1rem, calc(var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 100vw + var(--f-label-size-min, 1.4) - var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 32 * 1rem), var(--f-label-size-max, 1.6) * 1rem);
+  font-size: var(--f-label-size, --text-m);
   font-weight: var(--f-label-font-weight, 400);
   line-height: var(--f-label-line-height, 1);
   margin-bottom: var(--f-label-margin-bottom, 0.5em);
@@ -5200,9 +5433,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   -moz-border-radius: var(--f-btn-border-radius, var(--btn-radius));
   -ms-border-radius: var(--f-btn-border-radius, var(--btn-radius));
   -o-border-radius: var(--f-btn-border-radius, var(--btn-radius));
-  font-size: 1.8rem;
-  font-size: calc(1.4rem + (0.4 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.4rem, calc(0.4166666667vw + 1.2666666667rem), 1.8rem);
+  font-size: var(--f-btn-text-size, --text-m);
   font-weight: var(--f-btn-font-weight, 400);
   line-height: var(--f-btn-line-height, 1);
   padding: var(--f-btn-padding-y, 0.75em) var(--f-btn-padding-x, 1.5em);
@@ -5277,10 +5508,8 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
 .form--dark .wsf-form ul.wsf-group-tabs {
   background-color: var(--f-dark-tab-group-background-color, transparent);
   padding: var(--f-tab-group-padding-y, 0) var(--f-tab-group-padding-x, 0);
-  border-bottom-width: var(--f-tab-group-border-bottom-size, 2px);
-  border-bottom-style: var(--f-tab-group-border-bottom-style, solid);
-  border-bottom-color: var(--f-dark-tab-group-border-bottom-color, var(--neutral-ultra-light));
-  margin-bottom: var(--f-tab-group-margin-bottom, 3rem);
+  border-block-end: var(--f-tab-group-border-bottom-size, 2px) var(--f-tab-group-border-bottom-style, solid) var(--f-dark-tab-group-border-bottom-color, var(--neutral-ultra-light)) !important;
+  margin-block-end: var(--f-tab-group-margin-bottom, 3rem);
 }
 .form--dark .wsf-form ul.wsf-group-tabs > li {
   width: var(--f-tab-width, auto);
@@ -5289,13 +5518,11 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   margin-right: var(--f-tab-margin-x, 0);
 }
 .form--dark .wsf-form ul.wsf-group-tabs > li > a {
-  border: var(--f-tab-border-size, 0) var(--f-tab-border-style, solid) var(--f-dark-tab-border-color, var(--action));
+  border: var(--f-tab-border-size, 0) var(--f-tab-border-style, solid) var(--f-dark-tab-border-color, var(--action)) !important;
   border-radius: var(--f-tab-border-radius, 0);
   background-color: var(--f-dark-tab-background-color, transparent);
   color: var(--f-dark-tab-text-color, var(--neutral-dark));
-  font-size: var(--f-tab-text-size-pure, 1.4rem);
-  font-size: calc(1.6rem + (0.2 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.6rem, calc(0.2083333333vw + 1.5333333333rem), 1.8rem);
+  font-size: var(--f-tab-text-size, --text-m);
   font-weight: var(--f-tab-text-weight, 400);
   line-height: var(--f-tab-text-line-height, 1);
   padding: var(--f-tab-padding-y, 0.75em) var(--f-tab-padding-x, 1.5em);
@@ -5307,16 +5534,14 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   color: var(--f-dark-tab-inactive-text-color, var(--neutral-light-trans-80));
 }
 .form--dark .wsf-form ul.wsf-group-tabs > li.wsf-tab-active > a {
-  border: var(--f-tab-active-border-size, 0) var(--f-tab-active-border-style, solid) var(--f-dark-tab-active-border-color, var(--action));
-  border-bottom-width: var(--f-tab-active-border-bottom-size, 3px) !important;
-  border-bottom-style: var(--f-tab-active-border-style, solid);
-  border-bottom-color: var(--f-dark-tab-active-border-color, var(--action)) !important;
+  border: var(--f-tab-active-border-size, 0) var(--f-tab-active-border-style, solid) var(--f-dark-tab-active-border-color, var(--action)) !important;
+  border-block-end: var(--f-tab-active-border-bottom-size, 3px) var(--f-tab-active-border-style, solid) var(--f-dark-tab-active-border-color, var(--action)) !important;
   background-color: var(--f-dark-tab-active-background-color, transparent) !important;
-  color: var(--f-dark-tab-active-text-color, var(--neutral-light));
+  color: var(--f-dark-tab-active-text-color, var(--neutral-light)) !important;
   font-weight: var(--f-tab-active-text-weight, 600);
 }
 .form--dark .wsf-form ul.wsf-group-tabs > li.wsf-tab-active > a::before {
-  color: var(--f-dark-tab-active-border-color, var(--action)) !important;
+  color: var(--f-dark-tab-active-text-color, var(--neutral-light)) !important;
 }
 .form--dark .wsf-form ul.wsf-group-tabs.wsf-steps > li > a::before {
   background-color: var(--f-dark-tab-active-border-color, var(--action));
@@ -5330,9 +5555,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
 }
 .form--dark .wsf-form .wsf-section > legend, .form--dark .wsf-form .wsf-fieldset > legend {
   border: var(--f-legend-border, none);
-  font-size: var(--f-legend-size-pure, 1.5rem);
-  font-size: calc(1.4rem + (0.2 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.4rem, calc(0.2083333333vw + 1.3333333333rem), 1.6rem);
+  font-size: var(--f-legend-size, --text-m);
   font-weight: var(--f-legend-text-weight, 400);
   line-height: var(--f-legend-line-height, 1.2);
   margin-bottom: var(--f-legend-margin-bottom, 1em);
@@ -5340,9 +5563,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   padding: 0;
 }
 .form--dark .wsf-form .wsf-help {
-  font-size: var(--f-help-size-pure, 1.2rem);
-  font-size: calc(1.2rem + (0.2 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.2rem, calc(0.2083333333vw + 1.1333333333rem), 1.4rem);
+  font-size: var(--f-help-size, --text-m);
   font-weight: var(--f-help-text-weight, 400);
   line-height: var(--f-help-line-height, 1.4);
   color: var(--f-dark-help-text-color, var(--neutral-light));
@@ -5365,9 +5586,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   display: inline-block;
   color: var(--f-dark-label-text-color, var(--neutral-ultra-light));
   font-family: inherit;
-  font-size: var(--f-option-label-font-size-min, 1.4) * 1rem;
-  font-size: calc(var(--f-option-label-font-size-min, 1.4) * 1rem + (var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-option-label-font-size-min, 1.4) * 1rem, calc(var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 100vw + var(--f-option-label-font-size-min, 1.4) - var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 32 * 1rem), var(--f-option-label-font-size-max, 1.6) * 1rem);
+  font-size: var(--f-option-label-size, --text-m);
   font-weight: var(--f-option-label-font-weight, 400);
   line-height: 1.4;
   margin: 0 0 10px;
@@ -5408,9 +5627,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   display: inline-block;
   color: var(--f-dark-label-text-color, var(--neutral-ultra-light));
   font-family: inherit;
-  font-size: var(--f-option-label-font-size-min, 1.4) * 1rem;
-  font-size: calc(var(--f-option-label-font-size-min, 1.4) * 1rem + (var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-option-label-font-size-min, 1.4) * 1rem, calc(var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 100vw + var(--f-option-label-font-size-min, 1.4) - var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 32 * 1rem), var(--f-option-label-font-size-max, 1.6) * 1rem);
+  font-size: var(--f-option-label-size, --text-m);
   font-weight: var(--f-option-label-font-weight, 400);
   line-height: 1.4;
   margin: 0 0 10px;
@@ -5459,7 +5676,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
 .form--dark .wsf-form .minicolors-theme-ws-form .minicolors-swatch {
   height: calc(100% - 1px);
 }
-.form--dark .wsf-form input[type="range"] {
+.form--dark .wsf-form input[type="range"], .form--dark .wsf-form input[type="range"]::-moz-range-track {
   -webkit-appearance: none;
   /* Hides the slider so that custom slider can be made */
   appearance: none;
@@ -5471,7 +5688,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   --wsf-color-upper-track: var(--f-dark-range-right-track-color, var(--neutral-medium));
   background-color: var(--f-dark-range-background-color, var(--neutral-medium));
 }
-.form--dark .wsf-form input[type="range"]::-webkit-slider-thumb {
+.form--dark .wsf-form input[type="range"]::-webkit-slider-thumb, .form--dark .wsf-form input[type="range"]::-moz-range-thumb {
   -webkit-appearance: none;
   appearance: none;
   background-color: var(--f-dark-range-thumb-color, var(--action));
@@ -5554,7 +5771,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   color: hsl(var(--success-dark-h, 133), var(--success-dark-s, 61%), var(--success-dark-l, 15%));
 }
 .form--dark .wsf-form .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .form--dark .wsf-form .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current, .form--dark .wsf-form .xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current, .form--dark .wsf-form .xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover, .form--dark .wsf-form .xdsoft_datetimepicker .xdsoft_calendar td:hover, .form--dark .wsf-form .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
-  background: var(--action) !important;
+  background: var(--primary) !important;
 }
 .form--dark .wsf-form input[type="text"].wsf-field ~ canvas {
   border-top-width: var(--f-input-border-top-size, 0.1rem);
@@ -5585,9 +5802,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   border-color: var(--f-dark-input-border-color, var(--neutral-medium));
   border-radius: var(--f-input-border-radius, var(--btn-radius));
   color: var(--f-dark-input-text-color, var(--neutral-ultra-light));
-  font-size: var(--text-m-pure, 1.8rem);
-  font-size: calc(var(--f-input-text-size-min, 1.4) * 1rem + (var(--f-input-text-size-max, 1.8) - var(--f-input-text-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-input-text-size-min, 1.4) * 1rem, calc(var(--f-input-text-size-max, 1.8) - var(--f-input-text-size-min, 1.4) / 96 * 100vw + var(--f-input-text-size-min, 1.4) - var(--f-input-text-size-max, 1.8) - var(--f-input-text-size-min, 1.4) / 96 * 32 * 1rem), var(--f-input-text-size-max, 1.8) * 1rem);
+  font-size: var(--f-input-size, --text-m);
   line-height: var(--f-input-line-height, 1);
   font-weight: var(--f-input-font-weight, 400);
   padding: var(--f-input-padding-y, 0.5em) var(--f-input-padding-x, 1em);
@@ -5607,9 +5822,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   -moz-border-radius: var(--f-btn-border-radius, var(--btn-radius));
   -ms-border-radius: var(--f-btn-border-radius, var(--btn-radius));
   -o-border-radius: var(--f-btn-border-radius, var(--btn-radius));
-  font-size: var(--text-m-pure, 1.8rem);
-  font-size: calc(var(--f-btn-text-size-min, 1.4) * 1rem + (var(--f-btn-text-size-max, 1.8) - var(--f-btn-text-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-btn-text-size-min, 1.4) * 1rem, calc(var(--f-btn-text-size-max, 1.8) - var(--f-btn-text-size-min, 1.4) / 96 * 100vw + var(--f-btn-text-size-min, 1.4) - var(--f-btn-text-size-max, 1.8) - var(--f-btn-text-size-min, 1.4) / 96 * 32 * 1rem), var(--f-btn-text-size-max, 1.8) * 1rem);
+  font-size: var(--f-btn-text-size, --text-m);
   font-weight: var(--f-btn-font-weight, 400);
   line-height: var(--f-btn-line-height, 1);
   padding: var(--f-btn-padding-y, 0.75em) var(--f-btn-padding-x, 1.5em);
@@ -5642,9 +5855,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
 .form--dark label, .form--dark .bricks-search-form label, .form--dark .brxe-post-comments label {
   background-color: var(--f-dark-label-background-color, transparent);
   color: var(--f-dark-label-text-color, var(--neutral-ultra-light));
-  font-size: var(--text-s-pure, 1.42rem);
-  font-size: calc(var(--f-label-size-min, 1.4) * 1rem + (var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-label-size-min, 1.4) * 1rem, calc(var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 100vw + var(--f-label-size-min, 1.4) - var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 32 * 1rem), var(--f-label-size-max, 1.6) * 1rem);
+  font-size: var(--f-label-size, --text-m);
   font-weight: var(--f-label-font-weight, 400);
   line-height: var(--f-label-line-height, 1);
   margin-bottom: var(--f-label-margin-bottom, 0.5em);
@@ -5660,9 +5871,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
 .form--dark .choose-files, .form--dark .bricks-search-form .choose-files, .form--dark .brxe-post-comments .choose-files {
   padding: var(--f-input-padding-y 1em, 0.5em 1em);
   color: var(--f-dark-upload-btn-text-color var(--neutral-ultra-dark));
-  font-size: var(--text-s-pure 1.42rem);
-  font-size: calc(var(--f-label-size-min, 1.4) * 1rem + (var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-label-size-min, 1.4) * 1rem, calc(var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 100vw + var(--f-label-size-min, 1.4) - var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 32 * 1rem), var(--f-label-size-max, 1.6) * 1rem);
+  font-size: var(--f-label-size, --text-m);
   font-weight: var(--f-label-font-weight, 400);
   line-height: var(--f-label-line-height, 1);
   background: var(--f-dark-upload-btn-background-color, var(--neutral-light));
@@ -5673,9 +5882,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   background: var(--f-dark-upload-btn-background-color-hover, var(--neutral-ultra-light));
 }
 .form--dark .file-result.show, .form--dark .bricks-search-form .file-result.show, .form--dark .brxe-post-comments .file-result.show {
-  font-size: var(--text-s-pure, 1.42rem);
-  font-size: calc(var(--f-label-size-min, 1.4) * 1rem + (var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-label-size-min, 1.4) * 1rem, calc(var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 100vw + var(--f-label-size-min, 1.4) - var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 32 * 1rem), var(--f-label-size-max, 1.6) * 1rem);
+  font-size: var(--f-label-size, --text-m);
   font-weight: var(--f-label-font-weight, 400);
   line-height: var(--f-label-line-height, 1);
   transition: all var(--btn-transition-duration) ease;
@@ -5693,9 +5900,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   display: inline-block;
   color: var(--f-dark-label-text-color, var(--neutral-ultra-light));
   font-family: inherit;
-  font-size: var(--f-option-label-font-size-min, 1.4) * 1rem;
-  font-size: calc(var(--f-option-label-font-size-min, 1.4) * 1rem + (var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-option-label-font-size-min, 1.4) * 1rem, calc(var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 100vw + var(--f-option-label-font-size-min, 1.4) - var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 32 * 1rem), var(--f-option-label-font-size-max, 1.6) * 1rem);
+  font-size: var(--f-option-label-size, --text-m);
   font-weight: var(--f-option-label-font-weight, 400);
   line-height: 1.4;
   margin: 0 0 10px;
@@ -5726,9 +5931,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   display: inline-block;
   color: var(--f-dark-label-text-color, var(--neutral-ultra-light));
   font-family: inherit;
-  font-size: var(--f-option-label-font-size-min, 1.4) * 1rem;
-  font-size: calc(var(--f-option-label-font-size-min, 1.4) * 1rem + (var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-option-label-font-size-min, 1.4) * 1rem, calc(var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 100vw + var(--f-option-label-font-size-min, 1.4) - var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 32 * 1rem), var(--f-option-label-font-size-max, 1.6) * 1rem);
+  font-size: var(--f-option-label-size, --text-m);
   font-weight: var(--f-option-label-font-weight, 400);
   line-height: 1.4;
   margin: 0 0 10px;
@@ -5786,7 +5989,7 @@ section > div:where([class*="grid--"]), :where([class*="grid--"]) {
   margin-block-start: var(--list-item-spacing);
 }
 main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current, main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current, main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover, main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td:hover, main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
-  background: var(--action) !important;
+  background: var(--primary) !important;
 }
 .form--light .wsf-form input[type="date"].wsf-field, .form--light .wsf-form input[type="datetime-local"].wsf-field, .form--light .wsf-form input[type="file"].wsf-field, .form--light .wsf-form input[type="month"].wsf-field, .form--light .wsf-form input[type="password"].wsf-field, .form--light .wsf-form input[type="search"].wsf-field, .form--light .wsf-form input[type="time"].wsf-field, .form--light .wsf-form input[type="week"].wsf-field, .form--light .wsf-form input[type="email"].wsf-field, .form--light .wsf-form input[type="number"].wsf-field, .form--light .wsf-form input[type="tel"].wsf-field, .form--light .wsf-form input[type="text"].wsf-field, .form--light .wsf-form input[type="url"].wsf-field, .form--light .wsf-form select.wsf-field:not([multiple]):not([size]), .form--light .wsf-form select.wsf-field ~ .select2-container .select2-selection {
   height: var(--f-input-height, 5rem);
@@ -5801,9 +6004,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   border-color: var(--f-light-input-border-color, var(--neutral-light));
   border-radius: var(--f-input-border-radius, var(--btn-radius));
   color: var(--f-light-input-text-color, var(--neutral-dark));
-  font-size: 1.8rem;
-  font-size: calc(1.4rem + (0.4 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.4rem, calc(0.4166666667vw + 1.2666666667rem), 1.8rem);
+  font-size: var(--f-input-size, --text-m);
   font-weight: var(--f-input-font-weight, 400);
   line-height: var(--f-input-line-height, 1);
   padding: var(--f-input-padding-y, 0.5em) var(--f-input-padding-x, 1em);
@@ -5817,9 +6018,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
 }
 .form--light .wsf-form [data-type="texteditor"] {
   color: var(--f-light-input-text-color, var(--neutral-dark));
-  font-size: 1.8rem;
-  font-size: calc(1.4rem + (0.4 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.4rem, calc(0.4166666667vw + 1.2666666667rem), 1.8rem);
+  font-size: var(--f-input-size, --text-m);
   font-weight: var(--f-input-font-weight, 400);
   line-height: var(--f-input-line-height, 1);
 }
@@ -5844,21 +6043,17 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   padding-inline-end: calc(20px + var(--f-input-padding-x, 1em));
 }
 .form--light .wsf-form select.wsf-field:invalid {
-  color: hsl(var(--f-light-input-placeholder-hsl, ) / var(--f-light-input-placeholder-opacity, 0.5)) !important;
+  color: hsl(var(--f-light-input-placeholder-hsl, 0 2% 25%) / var(--f-light-input-placeholder-opacity, 0.5)) !important;
 }
 .form--light .wsf-form select.wsf-field ~ .select2-container .select2-selection--single .select2-selection__rendered, .form--light .wsf-form select.wsf-field ~ .select2-container .select2-selection--single .select2-selection__placeholder, .form--light .wsf-form select.wsf-field ~ .select2-container .select2-selection .select2-search--inline .select2-search__field, .form--light .wsf-form select.wsf-field ~ .select2-container .select2-selection input.select2-search__field::placeholder {
   color: var(--f-light-input-text-color, var(--neutral-dark));
-  font-size: 1.8rem;
-  font-size: calc(1.4rem + (0.4 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.4rem, calc(0.4166666667vw + 1.2666666667rem), 1.8rem);
+  font-size: var(--f-input-size, --text-m);
   font-weight: var(--f-input-font-weight, 400);
   line-height: var(--f-input-line-height, 1);
 }
 .form--light .wsf-form .wsf-select2-dropdown .select2-results .select2-results__option {
   border-top: 1px solid var(--f-light-input-border-color, var(--neutral-light));
-  font-size: 1.8rem;
-  font-size: calc(1.4rem + (0.4 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.4rem, calc(0.4166666667vw + 1.2666666667rem), 1.8rem);
+  font-size: var(--f-input-size, --text-m);
 }
 .form--light .wsf-form .wsf-select2-dropdown .select2-results .select2-results__option--highlighted[aria-selected] {
   background-color: var(--f-light-input-background, var(--white));
@@ -5866,6 +6061,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
 }
 .form--light .wsf-form.wsf-validated select.wsf-field:not([multiple]):not([size]):invalid, .form--light .wsf-form.wsf-validated input[type="date"].wsf-field:invalid, .form--light .wsf-form.wsf-validated input[type="datetime-local"].wsf-field:invalid, .form--light .wsf-form.wsf-validated input[type="file"].wsf-field:invalid, .form--light .wsf-form.wsf-validated input[type="month"].wsf-field:invalid, .form--light .wsf-form.wsf-validated input[type="password"].wsf-field:invalid, .form--light .wsf-form.wsf-validated input[type="search"].wsf-field:invalid, .form--light .wsf-form.wsf-validated input[type="time"].wsf-field:invalid, .form--light .wsf-form.wsf-validated input[type="week"].wsf-field:invalid, .form--light .wsf-form.wsf-validated input[type="email"].wsf-field:invalid, .form--light .wsf-form.wsf-validated input[type="number"].wsf-field:invalid, .form--light .wsf-form.wsf-validated input[type="tel"].wsf-field:invalid, .form--light .wsf-form.wsf-validated input[type="text"].wsf-field:invalid, .form--light .wsf-form.wsf-validated input[type="url"].wsf-field:invalid, .form--light .wsf-form.wsf-validated select.wsf-field:invalid, .form--light .wsf-form.wsf-validated textarea.wsf-field:invalid {
   border-color: hsl(var(--danger-h, 354), var(--danger-s, 70%), var(--danger-l, 54%));
+  color: hsl(var(--danger-h, 354), var(--danger-s, 70%), var(--danger-l, 54%));
 }
 .form--light .wsf-form .wsf-invalid-feedback {
   color: hsl(var(--danger-h, 354), var(--danger-s, 70%), var(--danger-l, 54%));
@@ -5880,9 +6076,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
 .form--light .wsf-form label.wsf-label, .form--light .wsf-form label {
   background-color: var(--f-light-label-background-color, );
   color: var(--f-light-label-text-color, var(--neutral-dark));
-  font-size: var(--text-s-pure, 1.42rem);
-  font-size: calc(var(--f-label-size-min, 1.4) * 1rem + (var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-label-size-min, 1.4) * 1rem, calc(var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 100vw + var(--f-label-size-min, 1.4) - var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 32 * 1rem), var(--f-label-size-max, 1.6) * 1rem);
+  font-size: var(--f-label-size, --text-m);
   font-weight: var(--f-label-font-weight, 400);
   line-height: var(--f-label-line-height, 1);
   margin-bottom: var(--f-label-margin-bottom, 0.5em);
@@ -5892,9 +6086,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
 .form--light .wsf-form .wsf-label-position-inside input.wsf-field[placeholder] + label, .form--light .wsf-form .wsf-label-position-inside input.wsf-field[placeholder] + .wsf-input-group-append + label {
   background-color: var(--f-light-label-background-color, );
   color: var(--f-light-label-text-color, var(--neutral-dark));
-  font-size: var(--text-s-pure, 1.42rem);
-  font-size: calc(var(--f-label-size-min, 1.4) * 1rem + (var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-label-size-min, 1.4) * 1rem, calc(var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 100vw + var(--f-label-size-min, 1.4) - var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 32 * 1rem), var(--f-label-size-max, 1.6) * 1rem);
+  font-size: var(--f-label-size, --text-m);
   font-weight: var(--f-label-font-weight, 400);
   line-height: var(--f-label-line-height, 1);
   margin-bottom: var(--f-label-margin-bottom, 0.5em);
@@ -5908,9 +6100,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
 .form--light .wsf-form .wsf-label-position-inside textarea.wsf-field[placeholder] + label, .form--light .wsf-form .wsf-label-position-inside textarea.wsf-field[placeholder] + .wsf-input-group-append + label {
   background-color: var(--f-light-label-background-color, );
   color: var(--f-light-label-text-color, var(--neutral-dark));
-  font-size: var(--text-s-pure, 1.42rem);
-  font-size: calc(var(--f-label-size-min, 1.4) * 1rem + (var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-label-size-min, 1.4) * 1rem, calc(var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 100vw + var(--f-label-size-min, 1.4) - var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 32 * 1rem), var(--f-label-size-max, 1.6) * 1rem);
+  font-size: var(--f-label-size, --text-m);
   font-weight: var(--f-label-font-weight, 400);
   line-height: var(--f-label-line-height, 1);
   margin-bottom: var(--f-label-margin-bottom, 0.5em);
@@ -5953,9 +6143,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   -moz-border-radius: var(--f-btn-border-radius, var(--btn-radius));
   -ms-border-radius: var(--f-btn-border-radius, var(--btn-radius));
   -o-border-radius: var(--f-btn-border-radius, var(--btn-radius));
-  font-size: 1.8rem;
-  font-size: calc(1.4rem + (0.4 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.4rem, calc(0.4166666667vw + 1.2666666667rem), 1.8rem);
+  font-size: var(--f-btn-text-size, --text-m);
   font-weight: var(--f-btn-font-weight, 400);
   line-height: var(--f-btn-line-height, 1);
   padding: var(--f-btn-padding-y, 0.75em) var(--f-btn-padding-x, 1.5em);
@@ -6030,10 +6218,8 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
 .form--light .wsf-form ul.wsf-group-tabs {
   background-color: var(--f-light-tab-group-background-color, transparent);
   padding: var(--f-tab-group-padding-y, 0) var(--f-tab-group-padding-x, 0);
-  border-bottom-width: var(--f-tab-group-border-bottom-size, 2px);
-  border-bottom-style: var(--f-tab-group-border-bottom-style, solid);
-  border-bottom-color: var(--f-light-tab-group-border-bottom-color, var(--neutral-ultra-light));
-  margin-bottom: var(--f-tab-group-margin-bottom, 3rem);
+  border-block-end: var(--f-tab-group-border-bottom-size, 2px) var(--f-tab-group-border-bottom-style, solid) var(--f-light-tab-group-border-bottom-color, var(--neutral-ultra-light)) !important;
+  margin-block-end: var(--f-tab-group-margin-bottom, 3rem);
 }
 .form--light .wsf-form ul.wsf-group-tabs > li {
   width: var(--f-tab-width, auto);
@@ -6042,13 +6228,11 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   margin-right: var(--f-tab-margin-x, 0);
 }
 .form--light .wsf-form ul.wsf-group-tabs > li > a {
-  border: var(--f-tab-border-size, 0) var(--f-tab-border-style, solid) var(--f-light-tab-border-color, var(--action));
+  border: var(--f-tab-border-size, 0) var(--f-tab-border-style, solid) var(--f-light-tab-border-color, var(--action)) !important;
   border-radius: var(--f-tab-border-radius, 0);
   background-color: var(--f-light-tab-background-color, transparent);
   color: var(--f-light-tab-text-color, var(--neutral-dark));
-  font-size: var(--f-tab-text-size-pure, 1.4rem);
-  font-size: calc(1.6rem + (0.2 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.6rem, calc(0.2083333333vw + 1.5333333333rem), 1.8rem);
+  font-size: var(--f-tab-text-size, --text-m);
   font-weight: var(--f-tab-text-weight, 400);
   line-height: var(--f-tab-text-line-height, 1);
   padding: var(--f-tab-padding-y, 0.75em) var(--f-tab-padding-x, 1.5em);
@@ -6060,16 +6244,14 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   color: var(--f-light-tab-inactive-text-color, var(--neutral-dark-trans-80));
 }
 .form--light .wsf-form ul.wsf-group-tabs > li.wsf-tab-active > a {
-  border: var(--f-tab-active-border-size, 0) var(--f-tab-active-border-style, solid) var(--f-light-tab-active-border-color, var(--action));
-  border-bottom-width: var(--f-tab-active-border-bottom-size, 3px) !important;
-  border-bottom-style: var(--f-tab-active-border-style, solid);
-  border-bottom-color: var(--f-light-tab-active-border-color, var(--action)) !important;
+  border: var(--f-tab-active-border-size, 0) var(--f-tab-active-border-style, solid) var(--f-light-tab-active-border-color, var(--action)) !important;
+  border-block-end: var(--f-tab-active-border-bottom-size, 3px) var(--f-tab-active-border-style, solid) var(--f-light-tab-active-border-color, var(--action)) !important;
   background-color: var(--f-light-tab-active-background-color, transparent) !important;
-  color: var(--f-light-tab-active-text-color, var(--neutral-dark));
+  color: var(--f-light-tab-active-text-color, var(--neutral-dark)) !important;
   font-weight: var(--f-tab-active-text-weight, 600);
 }
 .form--light .wsf-form ul.wsf-group-tabs > li.wsf-tab-active > a::before {
-  color: var(--f-light-tab-active-border-color, var(--action)) !important;
+  color: var(--f-light-tab-active-text-color, var(--neutral-dark)) !important;
 }
 .form--light .wsf-form ul.wsf-group-tabs.wsf-steps > li > a::before {
   background-color: var(--f-light-tab-active-border-color, var(--action));
@@ -6083,9 +6265,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
 }
 .form--light .wsf-form .wsf-section > legend, .form--light .wsf-form .wsf-fieldset > legend {
   border: var(--f-legend-border, none);
-  font-size: var(--f-legend-size-pure, 1.5rem);
-  font-size: calc(1.4rem + (0.2 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.4rem, calc(0.2083333333vw + 1.3333333333rem), 1.6rem);
+  font-size: var(--f-legend-size, --text-m);
   font-weight: var(--f-legend-text-weight, 400);
   line-height: var(--f-legend-line-height, 1.2);
   margin-bottom: var(--f-legend-margin-bottom, 1em);
@@ -6093,9 +6273,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   padding: 0;
 }
 .form--light .wsf-form .wsf-help {
-  font-size: var(--f-help-size-pure, 1.2rem);
-  font-size: calc(1.2rem + (0.2 * ((100vw - 32rem) / 96)));
-  font-size: clamp(1.2rem, calc(0.2083333333vw + 1.1333333333rem), 1.4rem);
+  font-size: var(--f-help-size, --text-m);
   font-weight: var(--f-help-text-weight, 400);
   line-height: var(--f-help-line-height, 1.4);
   color: var(--f-light-help-text-color, var(--neutral-medium));
@@ -6118,9 +6296,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   display: inline-block;
   color: var(--f-light-label-text-color, var(--neutral-dark));
   font-family: inherit;
-  font-size: var(--f-option-label-font-size-min, 1.4) * 1rem;
-  font-size: calc(var(--f-option-label-font-size-min, 1.4) * 1rem + (var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-option-label-font-size-min, 1.4) * 1rem, calc(var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 100vw + var(--f-option-label-font-size-min, 1.4) - var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 32 * 1rem), var(--f-option-label-font-size-max, 1.6) * 1rem);
+  font-size: var(--f-option-label-size, --text-m);
   font-weight: var(--f-option-label-font-weight, 400);
   line-height: 1.4;
   margin: 0 0 10px;
@@ -6161,9 +6337,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   display: inline-block;
   color: var(--f-light-label-text-color, var(--neutral-dark));
   font-family: inherit;
-  font-size: var(--f-option-label-font-size-min, 1.4) * 1rem;
-  font-size: calc(var(--f-option-label-font-size-min, 1.4) * 1rem + (var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-option-label-font-size-min, 1.4) * 1rem, calc(var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 100vw + var(--f-option-label-font-size-min, 1.4) - var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 32 * 1rem), var(--f-option-label-font-size-max, 1.6) * 1rem);
+  font-size: var(--f-option-label-size, --text-m);
   font-weight: var(--f-option-label-font-weight, 400);
   line-height: 1.4;
   margin: 0 0 10px;
@@ -6212,7 +6386,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
 .form--light .wsf-form .minicolors-theme-ws-form .minicolors-swatch {
   height: calc(100% - 1px);
 }
-.form--light .wsf-form input[type="range"] {
+.form--light .wsf-form input[type="range"], .form--light .wsf-form input[type="range"]::-moz-range-track {
   -webkit-appearance: none;
   /* Hides the slider so that custom slider can be made */
   appearance: none;
@@ -6224,7 +6398,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   --wsf-color-upper-track: var(--f-light-range-right-track-color, var(--neutral-ultra-light));
   background-color: var(--f-light-range-background-color, var(--neutral-ultra-light));
 }
-.form--light .wsf-form input[type="range"]::-webkit-slider-thumb {
+.form--light .wsf-form input[type="range"]::-webkit-slider-thumb, .form--light .wsf-form input[type="range"]::-moz-range-thumb {
   -webkit-appearance: none;
   appearance: none;
   background-color: var(--f-light-range-thumb-color, var(--action));
@@ -6307,7 +6481,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   color: hsl(var(--success-dark-h, 133), var(--success-dark-s, 61%), var(--success-dark-l, 15%));
 }
 .form--light .wsf-form .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .form--light .wsf-form .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current, .form--light .wsf-form .xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current, .form--light .wsf-form .xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover, .form--light .wsf-form .xdsoft_datetimepicker .xdsoft_calendar td:hover, .form--light .wsf-form .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
-  background: var(--action) !important;
+  background: var(--primary) !important;
 }
 .form--light .wsf-form input[type="text"].wsf-field ~ canvas {
   border-top-width: var(--f-input-border-top-size, 0.1rem);
@@ -6322,7 +6496,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
 }
 .form--light .wsf-form input[type="date"].wsf-field:focus, .form--light .wsf-form input[type="datetime-local"].wsf-field:focus, .form--light .wsf-form input[type="file"].wsf-field:focus, .form--light .wsf-form input[type="month"].wsf-field:focus, .form--light .wsf-form input[type="password"].wsf-field:focus, .form--light .wsf-form input[type="search"].wsf-field:focus, .form--light .wsf-form input[type="time"].wsf-field:focus, .form--light .wsf-form input[type="week"].wsf-field:focus, .form--light .wsf-form input[type="email"].wsf-field:focus, .form--light .wsf-form input[type="number"].wsf-field:focus, .form--light .wsf-form input[type="tel"].wsf-field:focus, .form--light .wsf-form input[type="text"].wsf-field:focus, .form--light .wsf-form input[type="url"].wsf-field:focus, .form--light .wsf-form select.wsf-field:focus, .form--light .wsf-form textarea.wsf-field:focus, .form--light .wsf-form button.wsf-button:focus, .form--light .wsf-form button.wsf-button.wsf-button-primary:focus {
   border-color: var(--f-light-focus-color, var(--action));
-  box-shadow: 0 0 0 4px hsl(var(--f-light-focus-hsl 223 59% 48%) / var(--f-light-focus-color-opacity, 0.25));
+  box-shadow: 0 0 0 4px hsl(var(--f-light-focus-hsl, 223 59% 48%) / var(--f-light-focus-color-opacity, 0.25));
   outline: 0;
 }
 .form--light input[type="date"], .form--light input[type="datetime-local"], .form--light input[type="month"], .form--light input[type="password"], .form--light input[type="search"], .form--light input[type="time"], .form--light input[type="week"], .form--light input[type="email"], .form--light input[type="number"], .form--light input[type="tel"], .form--light input[type="text"], .form--light input[type="url"], .form--light select:not([multiple]):not([size]), .form--light .bricks-search-form input[type="date"], .form--light .bricks-search-form input[type="datetime-local"], .form--light .bricks-search-form input[type="month"], .form--light .bricks-search-form input[type="password"], .form--light .bricks-search-form input[type="search"], .form--light .bricks-search-form input[type="time"], .form--light .bricks-search-form input[type="week"], .form--light .bricks-search-form input[type="email"], .form--light .bricks-search-form input[type="number"], .form--light .bricks-search-form input[type="tel"], .form--light .bricks-search-form input[type="text"], .form--light .bricks-search-form input[type="url"], .form--light .bricks-search-form select:not([multiple]):not([size]), .form--light .brxe-post-comments input[type="date"], .form--light .brxe-post-comments input[type="datetime-local"], .form--light .brxe-post-comments input[type="month"], .form--light .brxe-post-comments input[type="password"], .form--light .brxe-post-comments input[type="search"], .form--light .brxe-post-comments input[type="time"], .form--light .brxe-post-comments input[type="week"], .form--light .brxe-post-comments input[type="email"], .form--light .brxe-post-comments input[type="number"], .form--light .brxe-post-comments input[type="tel"], .form--light .brxe-post-comments input[type="text"], .form--light .brxe-post-comments input[type="url"], .form--light .brxe-post-comments select:not([multiple]):not([size]) {
@@ -6338,9 +6512,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   border-color: var(--f-light-input-border-color, var(--neutral-light));
   border-radius: var(--f-input-border-radius, var(--btn-radius));
   color: var(--f-light-input-text-color, var(--neutral-dark));
-  font-size: var(--text-m-pure, 1.8rem);
-  font-size: calc(var(--f-input-text-size-min, 1.4) * 1rem + (var(--f-input-text-size-max, 1.8) - var(--f-input-text-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-input-text-size-min, 1.4) * 1rem, calc(var(--f-input-text-size-max, 1.8) - var(--f-input-text-size-min, 1.4) / 96 * 100vw + var(--f-input-text-size-min, 1.4) - var(--f-input-text-size-max, 1.8) - var(--f-input-text-size-min, 1.4) / 96 * 32 * 1rem), var(--f-input-text-size-max, 1.8) * 1rem);
+  font-size: var(--f-input-size, --text-m);
   line-height: var(--f-input-line-height, 1);
   font-weight: var(--f-input-font-weight, 400);
   padding: var(--f-input-padding-y, 0.5em) var(--f-input-padding-x, 1em);
@@ -6360,9 +6532,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   -moz-border-radius: var(--f-btn-border-radius, var(--btn-radius));
   -ms-border-radius: var(--f-btn-border-radius, var(--btn-radius));
   -o-border-radius: var(--f-btn-border-radius, var(--btn-radius));
-  font-size: var(--text-m-pure, 1.8rem);
-  font-size: calc(var(--f-btn-text-size-min, 1.4) * 1rem + (var(--f-btn-text-size-max, 1.8) - var(--f-btn-text-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-btn-text-size-min, 1.4) * 1rem, calc(var(--f-btn-text-size-max, 1.8) - var(--f-btn-text-size-min, 1.4) / 96 * 100vw + var(--f-btn-text-size-min, 1.4) - var(--f-btn-text-size-max, 1.8) - var(--f-btn-text-size-min, 1.4) / 96 * 32 * 1rem), var(--f-btn-text-size-max, 1.8) * 1rem);
+  font-size: var(--f-btn-text-size, --text-m);
   font-weight: var(--f-btn-font-weight, 400);
   line-height: var(--f-btn-line-height, 1);
   padding: var(--f-btn-padding-y, 0.75em) var(--f-btn-padding-x, 1.5em);
@@ -6395,9 +6565,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
 .form--light label, .form--light .bricks-search-form label, .form--light .brxe-post-comments label {
   background-color: var(--f-light-label-background-color, );
   color: var(--f-light-label-text-color, var(--neutral-dark));
-  font-size: var(--text-s-pure, 1.42rem);
-  font-size: calc(var(--f-label-size-min, 1.4) * 1rem + (var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-label-size-min, 1.4) * 1rem, calc(var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 100vw + var(--f-label-size-min, 1.4) - var(--f-label-size-max, 1.6) - var(--f-label-size-min, 1.4) / 96 * 32 * 1rem), var(--f-label-size-max, 1.6) * 1rem);
+  font-size: var(--f-label-size, --text-m);
   font-weight: var(--f-label-font-weight, 400);
   line-height: var(--f-label-line-height, 1);
   margin-bottom: var(--f-label-margin-bottom, 0.5em);
@@ -6446,9 +6614,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   display: inline-block;
   color: var(--f-light-label-text-color, var(--neutral-dark));
   font-family: inherit;
-  font-size: var(--f-option-label-font-size-min, 1.4) * 1rem;
-  font-size: calc(var(--f-option-label-font-size-min, 1.4) * 1rem + (var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-option-label-font-size-min, 1.4) * 1rem, calc(var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 100vw + var(--f-option-label-font-size-min, 1.4) - var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 32 * 1rem), var(--f-option-label-font-size-max, 1.6) * 1rem);
+  font-size: var(--f-option-label-size, --text-m);
   font-weight: var(--f-option-label-font-weight, 400);
   line-height: 1.4;
   margin: 0 0 10px;
@@ -6479,9 +6645,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   display: inline-block;
   color: var(--f-light-label-text-color, var(--neutral-dark));
   font-family: inherit;
-  font-size: var(--f-option-label-font-size-min, 1.4) * 1rem;
-  font-size: calc(var(--f-option-label-font-size-min, 1.4) * 1rem + (var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) * ((100vw - 32rem) / 96)));
-  font-size: clamp(var(--f-option-label-font-size-min, 1.4) * 1rem, calc(var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 100vw + var(--f-option-label-font-size-min, 1.4) - var(--f-option-label-font-size-max, 1.6) - var(--f-option-label-font-size-min, 1.4) / 96 * 32 * 1rem), var(--f-option-label-font-size-max, 1.6) * 1rem);
+  font-size: var(--f-option-label-size, --text-m);
   font-weight: var(--f-option-label-font-weight, 400);
   line-height: 1.4;
   margin: 0 0 10px;
@@ -6539,7 +6703,7 @@ main:has(.form--dark) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_curren
   margin-block-start: var(--list-item-spacing);
 }
 main:has(.form--light) ~ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, main:has(.form--light) ~ .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current, main:has(.form--light) ~ .xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current, main:has(.form--light) ~ .xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover, main:has(.form--light) ~ .xdsoft_datetimepicker .xdsoft_calendar td:hover, main:has(.form--light) ~ .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
-  background: var(--action) !important;
+  background: var(--primary) !important;
 }
 #shadow-host-companion {
   padding: 0;
